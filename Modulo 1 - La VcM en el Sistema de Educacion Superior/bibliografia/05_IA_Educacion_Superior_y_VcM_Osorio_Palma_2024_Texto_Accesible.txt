@@ -1,0 +1,1431 @@
+TRANSCRIPCIÓN COMPLETA: INTELIGENCIA ARTIFICIAL, EDUCACIÓN SUPERIOR Y VINCULACIÓN CON EL MEDIO
+Autores: Francisco Osorio y Marisol Palma (2024)
+Revista: Encuentros: Revista de Ciencias Humanas, Teoría Social y Pensamiento Crítico, Nº 20, pp. 132-144
+DOI: https://doi.org/10.5281/zenodo.10045910
+======================================================================
+
+
+--- PÁGINA 1 ---
+
+ENCUENTROS
+Revista de Ciencias Humanas,
+Teoría Social y Pensamiento Crítico
+ISSN: 2343-6131 / ISSN-e: 2610-8046
+Universidad Nacional Experimental Rafael María Baralt 
+Maracaibo, Venezuela   N°:20 Enero – Abril  (2024)
+pp: 132-144
+Abstract
+Artificial intelligence is a very recent technology, but it has a high impact 
+on higher education. Its use has consequences in teaching, evaluation 
+methods, management, and administration of institutions, as well as in 
+scientific research. However, another function of higher education is 
+public engagement, previously known as extension. Interestingly, while 
+its importance and value are recognized, it also presents some comple-
+xities, such as its broad definition and its various forms it takes. In this 
+scenario, this article asks about the possible advantages that artificial 
+intelligence would have to support public engagement within higher 
+education institutions. To do this, a research project on the anthropo-
+logist Martin Gusinde (who studied the societies of the southernmost 
+part of America at the beginning of the 20th century) is considered and 
+from there, concrete (and long-term) ways are proposed in which scien-
+tific knowledge can use artificial intelligence to develop public engage-
+ment. Some ethical aspects are analyzed and it is concluded that the 
+relationship between artificial intelligence and public engagement can 
+be fruitful, but arguments that consider as many aspects as possible 
+must be developed within higher education to make informed decisions.
+Keywords: Artificial intelligence, engagement, community, higher 
+education, Gusinde. 
+RESUMEN
+La inteligencia artificial es una tecnología muy reciente, pero de alto im-
+pacto en educación superior. Su uso tiene consecuencias en docencia, 
+formas de evaluación, gestión y administración de las instituciones, así 
+como en la investigación científica. Sin embargo, otras de las funcio-
+nes de la educación superior es la vinculación con el medio, conocida 
+anteriormente como extensión. Interesantemente, si bien se reconoce 
+su importancia y valor, también presenta algunas complejidades, como 
+por ejemplo su definición amplia y sus diversas formas de actuar y 
+comunicar. En ese escenario, este artículo se pregunta por las posibles 
+ventajas que tendría la inteligencia artificial para apoyar la vinculación 
+con el medio en las instituciones de educación superior. Para realizar 
+lo anterior, se consideran los viajes de investigación del antropólogo 
+Martin Gusinde (que estudió las sociedades del extremo sur americano 
+a principios del siglo XX) y, desde ahí, se proponen maneras concretas 
+(y otras de largo plazo) en que el conocimiento científico puede usar la 
+inteligencia artificial para desarrollar y ampliar una efectiva vinculación 
+con el medio. Se analizan algunos aspectos éticos y se concluye que 
+la relación entre inteligencia artificial y vinculación con el medio pue-
+de ser fructífera, pero se requieren desarrollar dentro de la educación 
+superior argumentos informados por investigaciones que consideren 
+la mayor cantidad de aspectos para tomar decisiones informadas. 
+Palabras claves: Inteligencia artificial, vinculación medio, comuni-
+dad, educación superior, Gusinde.
+ RECIBIDO: 13/07/2023
+ACEPTADO: 20/09/2023
+Inteligencia Artificial, Educación                       
+Superior y Vinculación con el Medio.
+Artificial Intelligence, Higher Education, and Public Engagement.
+Francisco Osorio.
+Universidad de Chile, Chile.
+fosorio@uchile.cl
+https://orcid.org/0000-0002-
+5515-2699
+Este trabajo está depositado en Zenodo:
+DOI: https://doi.org/10.5281/zenodo.10045910
+Marisol Palma.
+Universidad de Tarapacá, Chile.
+mhpalmab@gmail.com
+https://orcid.org/0000-0002-
+7497-2617
+
+--- PÁGINA 2 ---
+
+Francisco Osorio y Marisol Palma
+Inteligencia Artificial, Educación Superior y Vinculación...
+ENCUENTROS
+articulo
+133
+INTRODUCCIÓN
+El impacto de la inteligencia arti-
+ficial en los sistemas universitarios 
+es enorme y, como todo está recién 
+comenzando, hay más preguntas que 
+certezas. En este escenario, desea-
+mos concentrarnos en la relación en-
+tre educación superior y vinculación 
+con el medio, a través de los posibles 
+usos de la inteligencia artificial para 
+ayudarnos en este proceso. 
+En esta misma revista, Victoriano 
+Camas (2022) reflexiona sobre la vin-
+culación con el medio y la educación 
+superior en Ecuador. Señala que “en el 
+contexto actual de las universidades 
+latinoamericanas, se está producien-
+do una tensión y conflicto alrededor 
+de la idea de la función social de la 
+vinculación con la sociedad, situación 
+que conlleva, cuando menos, a un de-
+bate sobre su significado, sus fines, 
+objetivos y modos de proceder” (Ca-
+mas, 2022: 74). Luego de hacer una 
+revisión bibliográfica, Camas llega a la 
+conclusión que el concepto es polisé-
+mico, es decir, se usa en Latinoaméri-
+ca de manera heterogénea. 
+El problema que se nos presenta 
+es que estamos ante dos conceptos 
+que nos cuesta asir: inteligencia arti-
+ficial y vinculación con el medio. Sin 
+embargo, podemos intuir el potencial 
+de ellos y tratar de pensar su relación, 
+por muy inicial que esta sea. Los cam-
+bios sociales y tecnológicos son tan 
+rápidos, que más vale considerar este 
+escenario móvil como base de este 
+artículo y tratar de navegar con esta 
+mar arbolada.
+Tradicionalmente, se usaba en 
+las universidades latinoamericanas el 
+concepto de extensión. Por ello, se 
+dice que las funciones de la educa-
+ción superior son tres: docencia, in-
+vestigación y extensión. Por cierto, la 
+mayoría de las instituciones asignan a 
+sus académicos una cuarta función: 
+administración o gestión. En tiem-
+pos más recientes(aproximadamente 
+desde el año 2000), la extensión pasó 
+a llamarse vinculación con el medio. 
+De acuerdo con Paulette Dougnac: 
+“La introducción del concepto de vin-
+culación con el medio en Chile ocurre 
+pocos años después de la emergen-
+cia del concepto de engagement en 
+Reino Unido y Estados Unidos, y plan-
+tea impulsar una relación bidireccio-
+nal como una nueva forma de vincu-
+lar la universidad con la comunidad” 
+(Dougnac, 2016: 4). 
+Por lo tanto, estamos ante una 
+propuesta generada en países anglo-
+sajones que es aceptada por las orga-
+nizaciones asociadas a la educación 
+superior en Latinoamérica, ya sea 
+agencias gubernamentales o casas 
+de estudio. La idea original es bienin-
+tencionada, esto es, buscar que tanto 
+las instituciones de educación supe-
+rior como las personas y organiza-
+ciones externas a ellas se relacionen 
+para beneficio mutuo: que se vinculen 
+para bien. La manera en que ello se 
+realiza cambia constantemente (hay 
+muchos modos de hacer vinculación 
+con el medio), pero es una idea que 
+llegó para quedarse y ha sido bien re-
+cibida en la comunidad académica.
+Así entonces, nuestro objetivo es 
+reflexionar sobre cómo podemos ha-
+cer vinculación con el medio usando 
+inteligencia artificial para el bien co-
+mún. Qué beneficios tendría, cómo se 
+podría hacer y qué problemas éticos 
+se podrían encontrar en el camino. 
+Nos interesa indagar en los límites 
+que implica aplicar (considerando 
+el campo de valores éticos de una 
+comunidad abierta al conocimiento 
+científico en su amplio sentido) la in-
+teligencia artificial al conocimiento de 
+la historia y en específico de lengua-
+jes y culturas en peligro de extinción. 
+Qué beneficios tendría, cómo se apli-
+caría, qué implica el manejo digital de 
+metadatos del archivo histórico, qué 
+problemas epistemológicos podría 
+haber, qué problemas éticos se po-
+drían encontrar en el camino.
+Para ello nos basamos en un pro-
+yecto de investigación financiado por
+
+--- PÁGINA 3 ---
+
+ENCUENTROS
+ARTICULO
+Revista de Ciencias Humanas,Teoría Social y Pensamiento Crítico
+N° 20 Enero – Abril (2024). PP: 132-144
+134
+la Agencia Nacional de Investiga-
+ción y Desarrollo de Chile (Fondecyt 
+1220499) sobre la obra del antropó-
+logo Martin Gusinde, quien realizó 
+trabajos y estadías de campo entre 
+pueblos originarios (yaganes, se-
+lk’nam, kaweskhar) entre 1918 y 1924, 
+en cuatro viajes de exploración a la 
+región de Fuego-Patagonia. El cono-
+cimiento de dichas culturas indígenas 
+tiene un valor propio que sin embargo 
+se desconoce, pues gran parte de los 
+resultados de investigación científi-
+ca termina en artículos y libros que 
+leen pocos especialistas. De ahí que 
+tiene mucho sentido y valor la vincu-
+lación con el medio que permita una 
+adecuada difusión de dichos conoci-
+mientos. En este proceso, los acadé-
+micos tradicionalmente han recurrido 
+al formato de conferencias o charlas, 
+generalmente dentro de sus propias 
+universidades o en lugares con poco 
+público. Otros, incluso, dan charlas 
+en colegios o centros comunales de 
+cultura.
+Sin embargo, todo ello cambió con 
+la ubiquidad de las redes sociales. 
+Hoy en día se hacen podcasts y vi-
+deos para YouTube, se publicitan por 
+Instagram y Tik Tok, amplificadas por 
+las mismas personas que ven estos 
+contenidos culturales o históricos en 
+redes sociales que interactúan con la 
+información y la comparten. Los aca-
+démicos, en general, han tomado más 
+conciencia que la vinculación con el 
+medio es una parte importante de su 
+trabajo de investigación científica (si 
+bien no saben mucho cómo hacerlo). 
+En este escenario, hizo su aparición la 
+inteligencia artificial, que ha llegado 
+para cambiarlo todo.
+INTELIGENCIA ARTIFICIAL
+Como este artículo se escribe en 
+el año 2023, lo que se entiende hoy 
+en día por inteligencia artificial es una 
+variedad que se conoce como gene-
+rativa. Esto quiere decir que el con-
+cepto es más antiguo, pero hoy se 
+usa en esta nueva acepción. Anterior-
+mente, habíamos escuchado concep-
+tos como big data, redes neuronales, 
+machine learning, Turing test y, por 
+cierto, inteligencia artificial como tal. 
+Pero en educación superior es otro el 
+concepto que es más usado: Chat-
+GPT. La letra G de GPT significa ge-
+nerativa.
+Una manera de entender esta 
+tecnología es conocer un poco de su 
+historia y saber cómo funciona. Los 
+inicios tienen que ver con un equipo 
+de investigación de Google que tenía 
+un problema: las traducciones que 
+hacían no eran buenas. En general, 
+era fácil traducir palabra por palabra, 
+pero el sentido de las frases se les 
+escapaba. Como vemos, las humani-
+dades y las ciencias sociales estarán 
+dichosas de saber que la investiga-
+ción que dio origen a ChatGPT tenía al 
+lenguaje como su centro de preocu-
+pación. Veamos el siguiente ejemplo. 
+Si una persona dice “entré a trabajar 
+a CEPAL”, se podría traducir con faci-
+lidad al idioma inglés. Pero ahora su-
+pongamos que esa persona está muy 
+contenta, habla con modismos, es de 
+Santiago de Chile (la sede de CEPAL 
+está en esa ciudad) y dice: “encontré 
+pega en la CEPAL”. Ahora no se en-
+tiende mucho lo que está diciendo.
+Un traductor automatizado podría 
+decir que “encontrar” es equivalente 
+a “to find”, la palabra “pega” es equi-
+valente a “punch”, las palabras “en la” 
+podrían ser “in the” y CEPAL tiene un 
+pequeño problema, pero de fácil solu-
+ción. En español Comisión Económica 
+para América Latina (CEPAL) es en 
+inglés Economic Commission for La-
+tin America, es decir, ECLAC (la letra 
+C es por Caribbean). La traducción 
+errónea quedaría así: “I found a punch 
+in ECLAC”. 
+Tempranamente, 
+entonces, 
+el 
+equipo de investigadores descubrió 
+que la traducción palabra por palabra 
+alcanzaba hasta cierto punto de exac-
+titud. Un avance, pero no era comple-
+tamente efectivo. Hasta que en el año 
+2017 publicaron un artículo con una 
+solución, cuyo título es también digno 
+de mérito: “Attention is all you need”
+
+--- PÁGINA 4 ---
+
+Francisco Osorio y Marisol Palma
+Inteligencia Artificial, Educación Superior y Vinculación...
+ENCUENTROS
+articulo
+135
+(Vaswani et. al 2017). Este documen-
+to fue estudiado por otro equipo de 
+personas (de la empresa OpenAI), 
+quienes dieron origen a ChatGPT (fue 
+lanzado en noviembre de 2022). Pero 
+sigamos con el ejemplo.
+El equipo de Google, entonces, 
+consideró que era mejor codificar las 
+palabras, es decir, asignar un número 
+a cada una, para facilitar los procesos 
+computacionales. En este paso, ya 
+hay un gran avance, pues los compu-
+tadores son, precisamente, veloces 
+para procesas números. Por ejemplo:
+Encontré
+trabajo
+en
+la
+CEPAL
+45
+62
+70
+77
+110
+Los números son arbitrarios. Lo 
+importante es que a cada palabra 
+le corresponde un número. Ambas 
+cosas, la secuencia de palabras y la 
+secuencia de números, están correla-
+cionadas. Sin embargo, para el proce-
+samiento de la información el progra-
+ma de computación no trabaja con las 
+palabras, sino que con los números. 
+En este caso, la secuencia 45, 62, 70, 
+77, 110. Ahora veamos la siguiente se-
+cuencia:
+Encontré
+trabajo
+en
+el
+Estado
+45
+62
+70
+80
+202
+Al software le hemos presentado 
+la nueva secuencia 45, 62, 70, 80, 
+202. El software, entonces, encuen-
+tra que 45, 62 y 70 van juntos en la 
+primera y segunda frase. Es decir, 
+son palabras que se mantienen cer-
+canas (el programa no lee las pala-
+bras, solo dice que esa secuencia 
+de números se relaciona estrecha-
+mente). Ahora bien, le ingresamos al 
+programa todos los libros que poda-
+mos encontrar y le decimos que se 
+entrene buscando coincidencias y, 
+claro, encuentra consistentemen-
+te la combinación 45, 62, 70. Por lo 
+tanto, el programa colige algo que 
+se podría traducir como: “si aparece 
+45 y luego 62, es muy probable que 
+aparezca 70”. 
+El software de inteligencia artifi-
+cial no lee comprensivamente como 
+nosotros. Las palabras las transforma 
+en números y luego calcula la proba-
+bilidad de combinaciones de que una 
+palabra venga después de otra, dado 
+que según la información con la que 
+ha sido entrenada, indica que ciertas 
+palabras van juntas. Esta idea la ex-
+perimentamos cuando escribimos un 
+correo electrónico y, al momento de 
+despedirnos, escribimos “Saluda …” 
+y el software sugiere “atentamente a 
+usted”. 
+Es también posible que uno quiera 
+escribir otra cosa después de “salu-
+da”, pero en el contexto de un correo 
+electrónico, de una carta formal hacia 
+una persona de una organización, esa 
+secuencia de palabras “saluda aten-
+tamente a usted” tiene una alta pro-
+babilidad de ser usada al final del co-
+rreo. Lo mismo pasa con la secuencia 
+“el Estado”, que en nuestro ejemplo es 
+80, 202. Es muy poco probable que 
+las personas escriban “la Estado” (77, 
+202 para nuestro caso hipotético). 
+Sucede, por cierto, pero es más pro-
+bable la secuencia 80, 202. 
+Hasta el momento hemos ejem-
+plificado dos características de la 
+inteligencia artificial generativa. La 
+primera es que las palabras son co-
+dificadas en números, lo que permite 
+una veloz computación del cálculo 
+de probabilidades. La segunda es 
+que el software que hace esto ne-
+cesita ser entrenado. El programa 
+solo puede sugerir un orden de las 
+palabras solo porque tiene ejemplos, 
+tiene una base de datos compuesta 
+de frases a las que mirar (esto tiene 
+implicancias que veremos más ade-
+lante). Son curiosas estas caracte-
+rísticas, pues la inteligencia artificial 
+genera palabras, pero no las saca de 
+la nada, sino que combina unidades 
+en base a elementos de su entrena-
+miento previo. Por ejemplo, si una in-
+teligencia artificial solo es entrenada 
+con la obra de Cervantes, responde-
+rá (combinará palabras) en el estilo 
+de Cervantes.
+
+--- PÁGINA 5 ---
+
+ENCUENTROS
+ARTICULO
+Revista de Ciencias Humanas,Teoría Social y Pensamiento Crítico
+N° 20 Enero – Abril (2024). PP: 132-144
+136
+Ahora bien, tenemos que volver al 
+tema de la traducción, pues necesi-
+tamos hablar de una nueva caracte-
+rística de la inteligencia artificial: la 
+atención. En el ejemplo “estoy muy 
+contento porque encontré pega en la 
+CEPAL”, nos encontramos con el pro-
+blema de la palabra “pega”, que suena 
+extraña, pero que hace sentido a mu-
+chos hablantes chilenos. Tomemos 
+la siguiente expresión: “el jugador le 
+pega a la pelota” o “el niño le pega a 
+la piñata”. Estas frases también ha-
+cen mucho sentido. Pero aquí viene la 
+idea novedosa de estos investigado-
+res de Google. Dicen que no hay que 
+traducir palabra por palabra, sino que 
+hay que poner atención solo a la pala-
+bra “pega” en el contexto de “CEPAL” 
+y poner atención a la palabra “pega” 
+en el contexto de “pelota” o “piñata”. 
+En otras palabras, cuando habla-
+mos de pelotas y piñatas, la palabra 
+pega se relaciona con golpear ese 
+objeto. Cuando hablamos de organi-
+zaciones, la palabra pega (en el con-
+texto de los chilenos) significa trabajo. 
+“Encontré trabajo” es el modo formal y 
+“encontré pega” es el habla coloquial 
+(para ese grupo de personas). Esta 
+solución permite, entonces, que una 
+posible traducción correcta al inglés 
+de “encontré pega en la CEPAL” sea la 
+frase “I found a gig in ECLAC”. 
+La inteligencia artificial solo puede 
+traducir así porque ha sido entrenada 
+sobre todo lo existente en Internet, 
+todo libro del español posible, todas 
+las obras digitalizadas escritas por 
+autores chilenos, todo Wikipedia, en 
+fin, todo de todo a lo que le han podi-
+do echar mano (y que sigue creciendo 
+en contenido) para alimentar el sof-
+tware. Por cierto, en todos los idiomas 
+posibles de los que se tenga registro. 
+Mientras más contenido hay de un 
+idioma, mejor es el entrenamiento. 
+Por ello el idioma inglés funciona me-
+jor: solo es porque hay más material 
+en ese idioma. En términos técnicos, 
+la tecnología se llama Large Langua-
+ge Model o LLM. La inteligencia arti-
+ficial que hoy usamos es un LLM. En 
+otras palabras, el programa ChatGPT 
+es un ejemplo de LLM. 
+Ahora podemos entender mejor 
+qué significa ChatGPT. Chat porque 
+podemos escribir en una cajita y re-
+cibir una respuesta. G porque es ge-
+nerativa. P porque es pre-entrenada 
+con ejemplos y datos. T porque es un 
+transformer.
+La palabra transformer fue usada 
+en ese famoso paper del que hablá-
+bamos al comienzo (Attention is all 
+you need), para referirse a todo este 
+modelo o arquitectura de procesos 
+que combina, asocia, codifica, deco-
+difica, traduce, considera lo que se 
+dijo anteriormente, vuelve a la pre-
+gunta inicial, pone atención a ciertas 
+partes y genera una respuesta en for-
+ma tan humana, que parece que estu-
+viésemos hablando con otra persona. 
+Por ejemplo, cuando se usa ChatGPT, 
+se le puede preguntar por una receta 
+para hacer pan con masa madre y el 
+programa responde como lo haría un 
+chef: “primero debes buscar tales in-
+gredientes y proceder de la siguiente 
+forma”.
+El modelo transformer también se 
+usa con imágenes, como por ejemplo 
+la imagen del Papa Francisco usando 
+una chaqueta blanca muy estilizada 
+(que causó una gran controversia), 
+pues dicha imagen fue generada por 
+medio de inteligencia artificial. Se usa 
+con sonidos, como es el caso de in-
+teligencia artificial que reproduce un 
+texto en voz, con cualquier acento 
+del cual se tenga registro. También 
+genera música, videos, es capaz de 
+crear páginas web, código en cual-
+quier lenguaje de programación y un 
+largo etcétera de aplicaciones para 
+empresas, educación superior, arte, 
+entretenimiento y la vida cotidiana en 
+general.
+UNESCO (2023) publicó un docu-
+mento llamado “ChatGPT and artifi-
+cial intelligence in higher education”, 
+precisamente con el propósito de 
+analizar el enorme impacto que esta 
+tecnología tiene en los centros de
+
+--- PÁGINA 6 ---
+
+Francisco Osorio y Marisol Palma
+Inteligencia Artificial, Educación Superior y Vinculación...
+ENCUENTROS
+articulo
+137
+educación superior (y, ya sabemos, 
+en todos los niveles educacionales). 
+La propuesta de la UNESCO es que es 
+una tecnología que se debe usar con-
+siderando sus beneficios y riesgos, es 
+decir, no hay que huir de ella, sino que 
+entenderla y mantener una actitud de 
+atenta observación a los desarrollos 
+que tendrá dentro de los centros de 
+educación superior en el futuro cer-
+cano. El documento dice que ya se 
+está usando como apoyo al proceso 
+de diseño de investigaciones (ayuda 
+a generar ideas), para recolectar da-
+tos (maneja muchas bases de datos y 
+traduce), para analizar datos (en esto 
+es impresionante y con capacidades 
+de análisis cada vez más crecientes) 
+y en el proceso de escritura de ensa-
+yos y artículos.
+POSIBLES USOS DE LA                  
+INTELIGENCIA ARTIFICIAL
+La pregunta que nos hicimos des-
+de el proyecto de investigación que 
+estamos realizando es cómo ocupar 
+la inteligencia artificial para hacer 
+vinculación con el medio en relación 
+a los materiales producidos por Gu-
+sinde como registros de los viajes de 
+investigación a Tierra del Fuego y que 
+se conservan en el Instituto Anthro-
+pos en Alemania. Como académicos e 
+investigadores, estamos acostumbra-
+dos a buscar información, procesarla 
+y publicar libros y artículos, pero me-
+nos experiencia tenemos en vincular 
+este conocimiento con la sociedad 
+en general (o incluso algunos grupos 
+o comunidades en particular). Menos 
+aún en usar inteligencia artificial.
+Pero antes, un poco de contexto 
+sobre el proyecto que estamos reali-
+zando. Mucho de la información sobre 
+las sociedades indígenas del extremo 
+sur del continente a comienzos del si-
+glo XX se debe a investigadores euro-
+peos, entre ellos, sacerdotes. El padre 
+Martin Gusinde, misionero austriaco 
+del Verbo Divino, fue uno de aquellos 
+estudiosos. Tenía formación en etno-
+logía, así como en ciencias naturales. 
+Mientras vivía en Chile, realizó trabajo 
+de campo con las sociedades Yamana 
+y Selk’nam, cuya información publicó 
+en varios libros, entre ellos, la famo-
+sa serie “Anthropologie der Feuerland 
+Indianer”. La historiadora Marisol Pal-
+ma ha trabajado extensamente sobre 
+Gusinde, traduciendo y analizando 
+sus diarios de viaje y cuadernos de 
+campo, que ofrecen nuevas luces so-
+bre la investigación de las sociedades 
+americanas (Palma, 2020). Cuando 
+murió Gusinde hacia finales de 1960, 
+la congregación conservó sus manus-
+critos, cartas, cuadernos, fotografías 
+e incluso registros fonográficos. Son 
+esos documentos y objetos los que 
+pacientemente se han estado docu-
+mentando y analizando todos estos 
+años. Además, como Gusinde realizó 
+sus investigaciones posteriores en 
+África, Asia y Estados Unidos, literal-
+mente hay documentación dispersa 
+en los cinco continentes.
+Generalmente se piensa que la in-
+teligencia artificial es algo tan recien-
+te, que solo se puede usar en mate-
+riales contemporáneos, pero más 
+bien hay que considerarla como una 
+tecnología que asiste al proceso de 
+investigación y difusión de cualquier 
+época o interés académico. Uno de 
+los aspectos que estamos conside-
+rando en el proyecto es la transcrip-
+ción de cuadernos escritos a mano, lo 
+cual presenta complejidades. Gusin-
+de escribía a mano alzada sus diarios 
+y cuadernos de campo utilizando va-
+rias lenguas (alemán, español, inglés, 
+yagan, selk’nam, haush, kaweshkar), 
+pues Gusinde era políglota y se inte-
+resó por el estudio de lenguas fue-
+guinas y variados tipos de escrituras: 
+convencional, kurrentschrift (escritura 
+alemana de alfabeto gótico que ya no 
+se utiliza en el mundo de habla alema-
+na) y escritura estenográfica (que es 
+una forma abreviada de escribir en có-
+digos taquigráficos) que le permitía a 
+Gusinde tomar notas en campo a gran 
+velocidad, pero cuyas convenciones 
+o formas son propias de su época. 
+Hasta la fecha se han encontrado 
+una serie de cuadernos en el Instituo
+
+--- PÁGINA 7 ---
+
+ENCUENTROS
+ARTICULO
+Revista de Ciencias Humanas,Teoría Social y Pensamiento Crítico
+N° 20 Enero – Abril (2024). PP: 132-144
+138
+Anthropos escritos a mano durante 
+las estadías de investigación de Mar-
+tin Gusinde en la región. Tras un aná-
+lisis interdisciplinar de los cuadernos 
+desclasificados, se pudo constatar 
+su calidad de fuentes directas de los 
+viajes, lo cual constituye un material 
+muy valioso en relación con sus ob-
+servaciones etnográficas, científicas 
+y culturales. Tanto las anotaciones, 
+como las fechas, se cotejaron con sus 
+publicaciones y con las coordenadas 
+que entregan los diarios de viaje que 
+se han ido publicando como registros 
+de sus viajes. Los documentos en-
+tregan información sobre los modos 
+manuales de registrar información. 
+Ello entrega una idea aproximada de 
+tiempos y situaciones de interacción 
+con informantes, así como espacios, 
+medios y técnicas de registro. Sin 
+embargo, la complejidad de los cua-
+dernos de notas etnográficas cuan-
+titativa y cualitativamente en función 
+de la información que entregan im-
+plica un tratamiento cuidadoso de la 
+información encriptada: una correcta 
+transcripción, edición crítica, traduc-
+ción al español. Las transcripciones 
+de cuadernos resultan así de alta 
+complejidad, pues no hay especia-
+listas en Chile y pocos en el mundo 
+de habla alemana para transcribir los 
+documentos estenográficos. En ese 
+escenario, ¿cómo podría ayudarnos 
+la tecnología en el campo de la 
+inteligencia artificial a transcribir de 
+manera sistemática las anotaciones 
+de campo de dichos cuadernos? Si 
+se digitalizaran todos los cuadernos 
+del archivo, las transcripciones ya 
+realizadas de sus tres primeros 
+viajes, todas sus publicaciones y 
+luego cargásemos esas imágenes en 
+el software de inteligencia artificial: 
+¿sería capaz de “leer” los estilos 
+taquigráficos, Kurrentschrift o alfabe-
+to latino, y transcribirlos al alemán? 
+¿Sería luego capaz de traducir co-
+rrectamente los documentos al es-
+pañol? Y por último ¿Sería capaz de 
+responder correctamente a nuestras 
+preguntas? ¿Cuáles beneficios, ries-
+gos e impactos tendrían estas nuevas 
+formas de elaborar conocimiento del 
+pasado y de otras culturas? 
+Claramente no responderemos es-
+tas preguntas, pero el caso de estudio 
+permite plantear claramente proble-
+mas en el proceso de investigación 
+y necesidades de apoyo tecnológico 
+para avanzar en la decodificación y 
+desclasificación de documentos pro-
+pios de una era protomoderna en la 
+que se configuraba la antropología 
+como disciplina y como práctica. La 
+escritura fue un medio fundamental 
+para la toma de registros, lo que impli-
+có un medio manual sofisticado como 
+revelan los cuadernos de campo. Su 
+decodificación es importante para 
+lo que se precisa de apoyo tecnoló-
+gico y competencias que exceden a 
+nuestras capacidades disciplinares. 
+Si complejizamos aún más la situa-
+ción, podríamos agregar la fotografía 
+y la grabación de sonidos que reali-
+zó Gusinde por medio de su cámara 
+fotográfica y el uso del fonógrafo que 
+constituyeron medios técnicos que 
+funcionaron articuladamente con la 
+toma de registros escritos. Así, si a 
+la inteligencia artificial se le agregase 
+sonido a la imagen, probablemente 
+la inteligencia artificial podría recrear 
+momentos, situaciones y personas 
+del pasado.  
+Por lo pronto, necesitamos es leer 
+documentos históricos en idioma ale-
+mán mediante inteligencia artificial. 
+Pues bien, una rápida búsqueda en 
+Google nos lleva al software Trans-
+kribus 
+(readcoop.eu/transkribus). 
+Nace como un proyecto de bibliote-
+cas alemanas precisamente preocu-
+padas del problema de cómo leer sus 
+archivos. Lo clave de estos proyectos 
+es que tienen muchos años de expe-
+riencia y, por lo tanto, pueden entre-
+nar estos programas. La arquitectura 
+“transformer”, como dijimos, requiere 
+de información previa que permite 
+que los otros componentes de la in-
+teligencia artificial funcionen. Lo más 
+importante es que los bibliotecarios 
+europeos, mediante este proyecto o 
+similares, están preocupados de la
+
+--- PÁGINA 8 ---
+
+Francisco Osorio y Marisol Palma
+Inteligencia Artificial, Educación Superior y Vinculación...
+ENCUENTROS
+articulo
+139
+calidad y, por ello, si el software es 
+entrenado con ese material histórico, 
+podemos estar más confiados que 
+los resultados serán correctos. Como 
+en todo proyecto científico, podemos 
+verificar los resultados y, con ello, 
+siempre la responsabilidad recaerá en 
+los investigadores principales.
+Como es un problema de lengua-
+je el que tenemos, precisamente ahí 
+es donde brilla esta tecnología. Otro 
+ejemplo es con entrevistas grabadas 
+(audio). Es frecuente el caso de inves-
+tigadores que poseen mucho material 
+que nunca han transcrito. Si poseen 
+casetes, es relativamente fácil digita-
+lizar dichas cintas. Pero cuando son 
+muchas las horas registradas, aumen-
+tan los costos de transcripción (junto 
+al tiempo que toma el trabajo). Pues 
+bien, existe una inteligencia artificial 
+que ha sido entrenada para “escu-
+char” los audios y transcribirlos en un 
+archivo de texto. Hay varias opciones, 
+pero una de alta calidad pertenece a 
+la misma empresa que creó ChatGPT 
+y se llama proyecto Whisper (openai.
+com/research/whisper). 
+Nuevamente, no es intuitivo o fácil 
+ocupar esta inteligencia artificial, pero 
+no es nada que una persona especia-
+lizada o dispuesta a aprender no pue-
+da resolver. Son simplemente com-
+petencias digitales que se adquieren 
+con estudio. La arquitectura transfor-
+mer (que recordemos es parte de la 
+tecnología LLM), tiene como material 
+de base las ondas sonoras que pro-
+ducen los hablantes de una lengua, 
+las cuales pueden ser digitalizadas. 
+Los lingüistas durante largos años 
+nos han enseñado las características 
+de los fonemas y, precisamente, pue-
+den entrenar estos programas de in-
+teligencia artificial que reconocen las 
+variedades fonéticas de las personas 
+que en su vida diaria usan al hablar. 
+El programa Whisper funciona car-
+gándole un archivo de audio y luego 
+se le asignan ciertas instrucciones al 
+programa para que transforme el au-
+dio en texto. Funciona con diferentes 
+idiomas. Como se dijo antes, el inves-
+tigador debe verificar el resultado, 
+pero es muy impresionante su preci-
+sión y velocidad.
+En el caso de la fotografía, la inte-
+ligencia artificial nos presta una gran 
+ayuda con las imágenes capturadas 
+por Martin Gusinde. Sus fotografías 
+son famosas y aparecen en cientos 
+de publicaciones, en cientos de pági-
+nas web y son frecuentes las exposi-
+ciones de arte que se hacen con ellas. 
+Considerando que son placas de vi-
+drio los negativos y la cámara era una 
+enorme caja de madera, más asom-
+brosa es su destreza como fotógrafo 
+en difíciles circunstancias ambienta-
+les. Para nuestro proyecto, usamos 
+los módulos de inteligencia artificial 
+de Adobe Photoshop, especialmente 
+el módulo de restauración (cuando 
+las copias de los originales tienen mu-
+chos defectos, manchas, suciedad o 
+falta un trozo de la imagen) y el módu-
+lo de colorización, dado que las imá-
+genes son en blanco y negro. Esto es 
+especialmente asombroso en los to-
+nos de la piel humana, pues el trabajo 
+de dar color a las personas lo puede 
+hacer un artista restaurador, pero ello 
+es caro y toma mucho tiempo. En el 
+caso de Adobe, han entrenado al 
+software con miles de fotografías de 
+personas de todas las culturas, por lo 
+que su inteligencia artificial produce 
+resultados de gran calidad. Por cierto, 
+el color en los paisajes es muy acer-
+tado también, porque distingue el tipo 
+de vegetación, la estación del año y 
+varios otros elementos contextuales 
+que permiten dar color a la naturaleza 
+con gran fidelidad. 
+Todo lo anterior va preparando 
+un cuerpo de información de cali-
+dad, pues está bajo el cuidado de 
+personas interesadas en la actividad 
+científica. En otras palabras, la actual 
+versión gratuita de ChatGPT es muy 
+creativa, muy útil, pero puede entre-
+gar información errónea, dado que ha 
+sido entrenada sobre todo lo posible 
+de ser encontrado en Internet (y ya 
+sabemos que en la web hay de todo). 
+Sin embargo, pensamos que es posi-
+
+--- PÁGINA 9 ---
+
+ENCUENTROS
+ARTICULO
+Revista de Ciencias Humanas,Teoría Social y Pensamiento Crítico
+N° 20 Enero – Abril (2024). PP: 132-144
+140
+ble argumentar que la tecnología de 
+inteligencia artificial entrenada con 
+datos de calidad es una poderosa 
+herramienta para la educación su-
+perior. En otras palabras, si usamos 
+su arquitectura, pero la limitamos a 
+un pre-entrenamiento confiable de 
+datos validados, entonces podemos 
+incrementar nuestra confianza en 
+esta tecnología. Este argumento no 
+es del todo sólido, como veremos en 
+la siguiente sección de limitaciones 
+y consideraciones éticas, pero es un 
+punto de partida para el momento en 
+que nos encontramos.
+LA VINCULACIÓN CON                   
+EL MEDIO
+Supongamos que nuestra inves-
+tigación avanza bien y continúa en 
+el tiempo. Supongamos que logra-
+mos acceso y digitalizamos todos los 
+materiales, documentos de archivo y 
+obras publicadas de Gusinde referidas 
+a sus viajes de investigación a Tierra 
+del Fuego entre 1918 y 1924. Todo ello 
+nos permitiría entrenar un programa 
+de inteligencia artificial que podría-
+mos llamar “ChatGusinde”. Este chat lo 
+podemos poner en una página web y 
+ofrecerlo en forma gratuita al mundo. 
+Podríamos así hipotéticamente “hablar 
+con Gusinde” o buscar información 
+confiable sobre sus descubrimientos, 
+encontrar palabras o ideas sustenta-
+das sobre las culturas que él estudió, 
+saber si una fotografía es original o si 
+acaso ha sido modificada (pues tene-
+mos sus originales en la base de da-
+tos), entregarle información nueva y 
+preguntarle cómo estos nuevos des-
+cubrimientos sintonizan (o no) con el 
+conocimiento acumulado, en fin, algo 
+muy distinto a lo que hacemos ahora, 
+pues si queremos buscar un dato, co-
+locamos en el buscador del PDF una 
+palabra clave y leemos lo que vamos 
+encontramos, pero es muy distinto es-
+cribir en el chat: “Gusinde, ¿se podría 
+decir que las sociedades Yamana y 
+Selk’nam creían en un solo Dios?”
+Pero Gusinde era uno entre los 
+cientos de investigadores de co-
+mienzos del siglo XX en dicha región. 
+Supongamos que creamos una inteli-
+gencia artificial con cada uno de los 
+científicos de esa época, que traba-
+jaron en todos los países latinoameri-
+canos, que nos permita entender a las 
+culturas ancestrales. Tendríamos así 
+una obra gratuita, valiosa, científica-
+mente construida, que sería un apor-
+te cultural a nuestras sociedades. Por 
+cierto, un artista podría crear digi-
+talmente a Gusinde, otra inteligencia 
+artificial permitirle hablar español con 
+acento alemán y así, los estudiantes 
+de enseñanza básica o secundaria 
+podrían hablar con él y hacerles pre-
+guntas sobre nuestras culturas. Y así 
+con todos los otros estudiosos de la 
+época. 
+Algo más cercano a nuestra época 
+y posibilidades podría ser que la in-
+teligencia artificial del presente (que 
+sus avances son muy rápidos), se 
+entienda como un asistente que nos 
+ayude en la creación de productos 
+concretos de vinculación con el me-
+dio. Por ejemplo, para crear conteni-
+dos y gráficas para las redes sociales 
+administradas por las unidades de 
+comunicación de las instituciones de 
+educación superior (o para redes so-
+ciales propias). Si tenemos un artículo 
+reciente, se puede usar ChatGPT para 
+crear un resumen en lenguaje simple 
+de 300 palabras, luego usar ese texto 
+en programas gráficos como Canvas, 
+Adobe Express o Microsoft Designer, 
+que ocupan inteligencia artificial para 
+crear los archivos JPG especialmente 
+adaptados a cada red social existen-
+te. 
+El flujo de trabajo en el presente 
+es partir de un artículo, conferencia 
+o documento existente, resumirlo o 
+adaptar su contenido para una au-
+diencia específica, diseñarlo en un 
+formato gráfico o audiovisual y difun-
+dirlo a través de diversos medios di-
+gitales. Lo ideal es que las personas 
+escriban (comenten, interaccionen) 
+en las redes sociales con estos con-
+tenidos, sobre lo cual los académicos 
+deben responder y así crear comuni-
+
+--- PÁGINA 10 ---
+
+Francisco Osorio y Marisol Palma
+Inteligencia Artificial, Educación Superior y Vinculación...
+ENCUENTROS
+articulo
+141
+dad (el gran objetivo de la vinculación 
+con el medio).
+Vincularse efectivamente con una 
+comunidad requiere interacción, no 
+solo crear contenidos y dejarlos en 
+las redes sociales para que alguien 
+los encuentre. Las unidades de co-
+municaciones pueden colaborar en la 
+difusión de los contenidos, pero de-
+jarles a ellos toda la responsabilidad 
+no permite cumplir con el objetivo de 
+establecer un efectivo nexo entre la 
+educación superior y la sociedad.
+LIMITACIONES Y CONSIDERA-
+CIONES ÉTICAS
+Las posibilidades que ofrece la 
+inteligencia artificial demandan de 
+nuestra parte una curva de aprendi-
+zaje extensa, lo cual implica tiempo y 
+recursos económicos. Si bien Chat-
+GPT es gratis en una de sus versio-
+nes, así como lo son otros programas 
+basados en la arquitectura LLM (Lar-
+ge Language Model), se debe pagar 
+por las versiones actualizadas o que 
+no tengan restricciones para usarlas 
+constantemente. Además, las perso-
+nas que ya tienen las competencias 
+en inteligencia artificial son pocas 
+para poder ser contratadas por los 
+proyectos académicos, mientras no se 
+desarrollen estas habilidades tecno-
+lógicas dentro de los propios equipos. 
+Pese a todas sus potencialidades, 
+no son herramientas de uso frecuente 
+actualmente, existe un gran descono-
+cimiento de ellas entre las institucio-
+nes de educación superior y mucho 
+del trabajo se sigue haciendo con 
+las tecnologías previas. La única que 
+ha logrado salir de este esquema es 
+ChatGPT, pero aún así dentro de un 
+contexto limitado de usuarios y para 
+funciones muy específicas. Las em-
+presas que están creando estas tec-
+nologías también están probando qué 
+funciona y qué no, con la posibilidad 
+de que no permanezcan en el tiempo. 
+Los gobiernos también están pensan-
+do en cómo crear regulaciones desde 
+el inicio, aprendiendo de las lecciones 
+del desarrollo sin control de las redes 
+sociales y de la facilitación que permi-
+te esta tecnología para producir “fake 
+news”. 
+Con relación a que hay personas 
+que perderían sus trabajos por culpa 
+de la inteligencia artificial, la situación 
+tiene muchos matices o escalas de 
+gris. Por ejemplo, un director de pro-
+yecto de investigación podría tomar la 
+decisión de prescindir de la contrata-
+ción de transcriptores de entrevistas 
+(audio), pues eso lo puede hacer un 
+software. Sin embargo, ¿sabe este 
+director como usar Whisper? Segu-
+ramente no (y tampoco tendría tiem-
+po de aprender). Lo que requiere es 
+alguien que tenga las competencias, 
+que podría ser la misma persona que 
+antes hacía las transcripciones en for-
+ma manual, pero que ahora revisa la 
+calidad del texto producido por una 
+inteligencia artificial que aprendió a 
+usar. Esa persona hace el trabajo más 
+rápido, pero sigue siendo la respon-
+sable de la calidad de la transcripción 
+y, con ello, sigue teniendo ese trabajo.
+En lo que respecta a nuestro ob-
+jetivo, supongamos que un grupo de 
+académicos podría decidir crear un 
+podcast como una manera de reali-
+zar vinculación con el medio y, de ese 
+modo, llegar a un grupo específico 
+(comunidad) con un contenido que 
+surge de un proyecto de investigación 
+o un trabajo docente con buenos re-
+sultados. La idea de este ejemplo fic-
+ticio es crear una serie de 10 capítu-
+los (uno por mes). La calidad más baja 
+para realizar este podcast es que las 
+personas ocupen un teléfono móvil o 
+un computador personal y graben una 
+conversación. Luego, suben el audio 
+a una plataforma de podcast. La ca-
+lidad más alta es usar micrófonos 
+profesionales, editar en un software 
+de audio (hay procesos aquí que se 
+llaman comprensión, ecualización, re-
+ducción de ruido, eliminación de fre-
+cuencias, etc.), postproducción con 
+música y audios complementarios, 
+todos con licencias para evitar pro-
+blemas de copyright y una campaña 
+de difusión del podcast. Lo más caro
+
+--- PÁGINA 11 ---
+
+ENCUENTROS
+ARTICULO
+Revista de Ciencias Humanas,Teoría Social y Pensamiento Crítico
+N° 20 Enero – Abril (2024). PP: 132-144
+142
+aquí son los profesionales que saben 
+crear podcasts de alta calidad.
+¿Cómo 
+puede 
+ayudar 
+la 
+inteligencia artificial en este podcast? 
+Bajo el supuesto que alguien del equi-
+po académico tiene las competencias 
+necesarias para usar esta tecnología, 
+el podcast de baja calidad puede be-
+neficiarse de varias formas. Si graba 
+con equipos básicos, el audio puede 
+ser ingresado a una inteligencia artifi-
+cial que realiza procesos de mejora y 
+que son competencias profesionales 
+de la edición de sonido, por ejemplo, 
+comprensión de sonido (la búsqueda 
+de un balance entre frecuencias al-
+tas y bajas de la voz humana). Esto 
+sucede porque hay algunas personas 
+que hablan fuerte y otras despacio. 
+La compresión consiste es “prome-
+diar” los sonidos, para que todas las 
+voces suenen similares, sin alterarlas. 
+Otra competencia es la eliminación de 
+ruidos de fondo, que también puede 
+hacer un software de inteligencia ar-
+tificial (un profesional sabe identificar 
+las frecuencias que no corresponden 
+a la voz y reducirlas). Un software que 
+hace todo ello es de la empresa Ado-
+be y se llama Adobe Podcast (pod-
+cast.adobe.com). Si el equipo decide 
+que necesita música para hacer más 
+amena la conversación (la música de 
+fondo ayuda a que las voces no sue-
+nen tan duras), puede usar una inte-
+ligencia artificial que genera música 
+sin problemas de copyright. Uno de 
+estos programas es Soundraw (soun-
+draw.io). Por ejemplo, el podcast tiene 
+tres secciones y se requiere música 
+distinta para cada parte. Se le dice 
+al programa que genere 5 minutos 
+(por ejemplo) de música acústica en 
+el estilo “peaceful”. Luego el software 
+crea diversas versiones con esa com-
+binación de instrucciones y se puede 
+descargar la que se considere más 
+apropiada al podcast.
+Pero supongamos que el equipo 
+docente es tímido o no les gustan 
+sus voces o se ponen muy nerviosos 
+y cometen muchos errores en la gra-
+bación. Una posibilidad es crear un 
+guion de la conversación. Escribir un 
+texto que simule una conversación, 
+con preguntas, respuestas, interrup-
+ciones, en fin, lo más cercano a la 
+realidad. Luego, se le pide a una in-
+teligencia artificial que lea el texto y 
+cree cada voz. Ese audio se descarga, 
+se edita y tenemos un podcast. Una 
+inteligencia artificial que hace ello es 
+Eleven Labs (beta.elevenlabs.io). Hay 
+voces predefinidas en diversos acen-
+tos, pero se pueden modificar. Su 
+calidad aumenta cada vez y algunas 
+veces producen voces que son impo-
+sibles de pensar que fueron creadas 
+con una inteligencia artificial.
+Los problemas éticos que con-
+lleva todo lo anterior son enormes, 
+pero como es tan reciente, mucho 
+del debate es muy simple: condena-
+torio total o aprobación incondicional. 
+C. Huang et al (2022) en su artículo 
+“An overview of artificial intelligence 
+ethics” resumen la discusión diciendo 
+que hay varios aspectos que conside-
+rar, entre ellos: transparencia (inclu-
+so para expertos, no se sabe mucho 
+cómo la inteligencia artificial desarro-
+lla sus procesos y como es que llega 
+a proponer las respuestas a nuestras 
+preguntas), seguridad de los datos (al 
+entrenar o entregar nuestros datos a 
+una inteligencia artificial, no podemos 
+estar seguros que esa información no 
+sea usada para otros propósitos), pri-
+vacidad (al interactuar con estos pro-
+gramas podemos perder el anonimato 
+de nosotros o de las comunidades 
+con que trabajamos), responsabilidad 
+(al dejar muchas tareas a una inteli-
+gencia artificial, se puede traspasar la 
+responsabilidad a un programa y no a 
+la persona que lo ocupa), autonomía 
+(la inteligencia artificial puede desa-
+rrollar procesos sin control humano), 
+derechos humanos (la inteligencia 
+artificial podría actuar sin respetar 
+los derechos humanos), accesibilidad 
+(quien puede, realmente, usar estar 
+tecnologías y si acaso eso no crea 
+más desigualdad), sesgo (si la inteli-
+gencia artificial es entrenada con un 
+set limitado de datos o de perspecti-
+vas, los resultados solo darán cuenta
+
+--- PÁGINA 12 ---
+
+Francisco Osorio y Marisol Palma
+Inteligencia Artificial, Educación Superior y Vinculación...
+ENCUENTROS
+articulo
+143
+de visiones particulares de mundo o 
+de ciertos grupos de interés), entre 
+otros que ya hemos visto como el re-
+emplazo del trabajo y la automatiza-
+ción de tareas. 
+Pero tal vez la mayor limitación no 
+sea la tecnología misma de la inteli-
+gencia artificial, sino nuestro uso de 
+ella. Tomemos el caso de la propues-
+ta de ChatGusinde. Este investigador, 
+Martin Guside, obtiene un conoci-
+miento de primera mano mediante su 
+trabajo de campo, pero como todo 
+ser humano y como un hombre de 
+su época, está sujeto a los mismos 
+prejuicios que todo otro investigador. 
+Las personas de las sociedades con 
+las que él interactuó le contaron una 
+historia (otras personas podrían haber 
+tenido una versión alternativa), Gu-
+sinde mismo seleccionó parte de esa 
+información y sus interpretaciones 
+podrían ser una mezcla de todo lo an-
+terior. Recordemos que era sacerdote 
+y, por ende, tal vez las sociedades del 
+extremo sur no tenían un único Dios, 
+sino que Gusinde considera que lo ve 
+posible frente a la evidencia que él 
+tiene y frente a sus creencias y co-
+nocimientos científicos de su época. 
+A lo que nos referimos es un posible 
+ChatGusinde no nos entregará la ver-
+dad sobre las sociedades america-
+nas, sino que todo lo que le podamos 
+preguntar y conocer desde esta inte-
+ligencia artificial debe ser analizada 
+con una perspectiva crítica. De ahí la 
+importancia de la educación. Sin una 
+guía docente, se podría creer que 
+una inteligencia artificial, aunque sea 
+científicamente entrenada, es verda-
+dera. Más bien, la ciencia es siempre 
+un proceso de acercamiento a la ver-
+dad. Susceptible de cometer errores, 
+pero dispuesta a cambiar frente a la 
+evidencia en contrario. 
+Tal vez una aproximación posible 
+a la relación ética entre educación 
+superior e inteligencia artificial sea 
+una posición de cautela y regulación 
+a medio camino entre el rechazo y 
+su aceptación incondicional. En otras 
+palabras, si estamos atentos a los di-
+versos aspectos éticos de esta rela-
+ción y reflexionamos sobre ello den-
+tro de nuestros equipos académicos 
+y con la comunidad, es probable que 
+podamos desarrollar argumentos que 
+orienten nuestras decisiones. 
+CONCLUSIÓN
+Lo que podemos ver en el presente 
+es que crece la vinculación con el me-
+dio y que la tecnología de inteligencia 
+artificial ha tenido un fuerte comien-
+zo y se piensa que solo crecerá más. 
+Por lo tanto, no solo son fenómenos 
+emergentes, sino que en incremento 
+acelerado. En el ámbito de la educa-
+ción superior podemos beneficiarnos 
+de la inteligencia artificial para apoyar 
+los procesos de vinculación con el 
+medio. Hemos tratado de mostrar en 
+este artículo que existen usos de baja 
+complejidad (menor capacitación) y 
+otros que requieren mayores compe-
+tencias para usar las herramientas de 
+inteligencia artificial en las diversas 
+etapas que tiene la creación y difu-
+sión de conocimiento científico a la 
+sociedad (o comunidades específicas 
+a las cuales se desea llegar) con un 
+contenido de calidad.
+Los principales desafíos que po-
+demos encontrar en relación con la in-
+teligencia artificial tienen que ver con 
+el desarrollo de competencias, esto 
+es, con la capacidad de los equipos 
+de poder capacitarse en tecnologías 
+de inteligencia artificial o bien contra-
+tar a un especialista en esta tecnolo-
+gía. En este último caso, no tiene que 
+ser un ingeniero o una persona que 
+comúnmente asociada con las unida-
+des de tecnología y computación de 
+nuestras facultades o universidades, 
+sino que alguien que esté dispuesto 
+a la capacitación permanente, dados 
+los avances semanales que podemos 
+observar en este mundo. En otras 
+palabras, alguien con capacidad de 
+aprendizaje autónomo y dispuesta a 
+explorar estos programas para el apo-
+yo de equipos de educación superior 
+que necesitan crear comunidad con 
+una población específica.
+
+--- PÁGINA 13 ---
+
+ENCUENTROS
+ARTICULO
+Revista de Ciencias Humanas,Teoría Social y Pensamiento Crítico
+N° 20 Enero – Abril (2024). PP: 132-144
+144
+En este escenario, el trabajo en 
+equipo es de enorme importancia, 
+pues una persona no puede hacer 
+este trabajo arrojándose todo el peso 
+en sus hombros. La vinculación con el 
+medio requiere el involucramiento de 
+la unidad académica o de unidades 
+especializadas de la institución su-
+perior, por ejemplo, comunicaciones, 
+informática y, por cierto, las nuevas 
+unidades de vinculación con el medio. 
+Los académicos senior o los jefes de 
+proyecto es muy poco probable que 
+tengan el tiempo para capacitarse y, 
+dentro de sus múltiples responsabili-
+dades, usar estas tecnologías, pese a 
+percibir su importancia. Los académi-
+cos o investigadores podrían percibir 
+que la vinculación con el medio es otra 
+tarea más dentro de su ya recargada 
+agenda de trabajo. La promesa de que 
+la inteligencia artificial les ayudará a 
+sus actividades es muy reciente y son 
+pocos los ejemplos como para que se 
+vuelquen a ella con velocidad (suma-
+do a la falta de capacitación). Pero si 
+se considera que la vinculación con 
+el medio, la inteligencia artificial y la 
+labor de docencia e investigación en 
+la educación superior es un trabajo 
+multidisciplinario, que por lo mismo 
+implica una serie de personas con di-
+ferentes competencias, entonces es 
+posible pensar que el uso de nuevas 
+tecnologías podría ofrecer una efec-
+tiva ayuda para cumplir con nuestros 
+objetivos de contribuir al desarrollo y 
+conocimiento de nuestras sociedades 
+y culturas latinoamericanas.
+AGRADECIMIENTOS
+Este artículo es parte del proyecto 
+Fondecyt 1220499 de la Agencia Na-
+cional de Investigación y Desarrollo. 
+Agradecemos los comentarios de Os-
+car Aguilera (Universidad de Magalla-
+nes).
+REFERENCIAS BIBLIOGRÁFICAS
+CAMAS, V. (2022). Función so-
+cial de la vinculación con la sociedad 
+en el sistema de educación superior 
+de Ecuador. Encuentros. Revista de 
+Ciencias Humanas, Teoría Social y 
+Pensamiento Crítico, 15, 73-94. http://
+doi.org/ 10.5281/zenodo.6551034
+DOUGNAC, P. (2016). Una revisión 
+del concepto anglosajón public enga-
+gement y su equivalencia funcional a 
+los de extensión y vinculación con el 
+medio. Pensamiento Educativo. Re-
+vista de Investigación Educacional 
+Latinoamericana, 53(2), 1-19. https://
+doi.org/10.7764/PEL.53.1.2016.11
+HUANG, C. et al. (2022). An over-
+view of artificial intelligence ethics. 
+IEEE Transactions on Artificial In-
+telligence. 
+https://doi.org/10.1109/
+TAI.2022.3194503
+PALMA, M. (2020). Diario del ter-
+cer viaje de Martín Gusinde a Tie-
+rra del Fuego (1921-1922). Anthro-
+pos, 115(2), 483-502. https://doi.
+org/10.5771/0257-9774-2020-2
+UNESCO. (2023). ChatGPT and 
+artificial intelligence in higher educa-
+tion. UNESCO IESALC. https://www.
+iesalc.unesco.org
+VASWANI, A. (2017). Attention 
+is all you need. ArXiv. https://doi.
+org/10.48550/arXiv.1706.03762

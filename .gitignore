@@ -1,0 +1,13 @@
+# Archivos temporales del sistema y editores
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Archivos temporales de Microsoft Office
+~$*
+
+# Archivos de caché y python
+__pycache__/
+*.pyc

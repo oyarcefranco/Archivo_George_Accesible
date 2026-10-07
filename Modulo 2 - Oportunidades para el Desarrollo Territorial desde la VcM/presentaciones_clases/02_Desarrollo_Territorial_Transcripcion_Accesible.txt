@@ -1,0 +1,1220 @@
+TRANSCRIPCIÓN ACCESIBLE: Desarrollo Territorial y VcM
+=====================================================
+Archivo de origen: Desarrollo territorial.pdf
+Total de diapositivas analizadas: 107
+Esta transcripción presenta el contenido textual de cada diapositiva de forma secuencial y accesible para lectores de pantalla.
+------------------------------------------------------------
+
+DIAPOSITIVA 1:
+  • Unidad 2: Natalia Francisca Campos Albornoz
+  • Geógrafa. Mag. En Manejo de Recursos Naturales.
+  • Académica de Vinculación con el Medio. Facultad de Ingeniería.
+  • Universidad San Sebastián
+  • Sede Valdivia.
+
+DIAPOSITIVA 2:
+  • Título del módulo
+  • Oportunidades para el desarrollo territorial desde la VcM
+
+DIAPOSITIVA 3:
+  • Propósito del módulo
+  • •Proyectar soluciones pertinentes a problemáticas territoriales detectadas.
+  • •Integrar herramientas de identificación de actores y brechas.
+  • •Promover enfoques prácticos y colaborativos.
+
+DIAPOSITIVA 4:
+  • Aporte al perfil de egreso
+  • •Desarrolla iniciativas de VcM con enfoques territoriales y experienciales.
+  • •Promueve investigación aplicada y colaboración con el entorno.
+  • •Genera valor público desde criterios éticos, técnicos e institucionales.
+
+DIAPOSITIVA 5:
+  • Resultado de aprendizaje general
+  • •Proyectar una solución a problemáticas territoriales.
+  • •Usar herramientas de diagnóstico y análisis territorial para estudios territoriales.
+
+DIAPOSITIVA 6:
+  • Ruta de aprendizaje
+  • Hora
+  • Hito
+  • 19:00-19:05
+  • Inicio de la sesión (cinco minutos de espera).
+  • 19:05-19:20
+  • Introducción y actividad interactiva de inicio
+  • 19:20-19:50
+  • Revisión de contenidos
+  • 19:50-20:00
+  • Break
+  • 20:00-20:30
+  • Revisión de contenidos y actividad interactiva de aplicación
+  • 20:30-20:45
+  • Plenario de conversación – preguntas y respuestas
+  • 2:45-21:00
+  • Cierre de la sesión
+
+DIAPOSITIVA 7:
+  • Consideraciones para la participación
+  • •
+  • Utiliza la herramienta “Levantar la mano” para solicitar la
+  • palabra, y espera que quien dirige la sesión te indique
+  • cuándo intervenir.
+  • •
+  • Participa activamente en las actividades interactivas
+  • propuestas durante la sesión, siguiendo las instrucciones
+  • entregadas en cada momento.
+  • •
+  • Mantén el micrófono desactivado mientras no estés
+  • interviniendo y evita utilizar herramientas de Zoom que no
+  • hayan sido solicitadas, para favorecer el desarrollo ordenado
+  • de la sesión.
+
+DIAPOSITIVA 8:
+  • Asistencia
+  • •
+  • Recuerde completar el formulario
+  • de asistencia UNA vez.
+  • •
+  • No olvide que la asistencia se
+  • coteja con la conexión a Zoom,
+  • así que asegúrese de tener su
+  • nombre en el usuario.
+  • •
+  • https://forms.cloud.microsoft/r/XcU
+  • ZU7yZea
+
+DIAPOSITIVA 9:
+  • Comparta sus preguntas
+  • • Ingrese al documento si tiene alguna
+  • pregunta durante la sesión o desea
+  • compartir un comentario para la etapa de
+  • plenario.
+  • • https://docs.google.com/document/d/1B3t3
+  • s9y0PGvemopZNkVJcoKMkUTOG8lZIAka
+  • h5fNZ-M/edit?usp=sharing
+
+DIAPOSITIVA 10:
+  • Unidades de aprendizaje
+  • 1. Territorio y desarrollo sostenible.
+  • 2. Planificación estratégica del territorio.
+  • 3. Innovación abierta y aplicación territorial.
+  • 4. Oportunidades para el desarrollo territorial.
+
+DIAPOSITIVA 11:
+  • CONTENIDOS
+  • ¿Cómo se define Planificación Territorial (PT)?
+  • Los Principios Planificación Territorial (PT)
+  • ¿En qué consiste Planificación Territorial?
+  • ¿Cuál es el rol y aporte de la Prospectiva en la PT?
+  • ¿Qué es el Ordenamiento Territorial (OT)?
+  • ¿Cuáles son los instrumentos de OT?
+  • ¿Cuáles son los principales instrumentos de Planificación Regional y Comunal?
+  • Herramientas de análisis del territorio: MAC
+  • Otras Herramientas de Planificación Territorial
+
+DIAPOSITIVA 12:
+  • EN SUDAMERICA
+  • ¿Que problema de
+  • planificación se
+  • advierte?
+
+DIAPOSITIVA 13:
+  • COMUNA DE COLLIPULLI
+  • ¿Que problema de
+  • planificación se
+  • advierte?
+
+DIAPOSITIVA 14:
+  • COMUNA DE PETORCA
+  • ¿Que problema de
+  • planificación se
+  • advierte?
+
+DIAPOSITIVA 15:
+  • ISLA GRADE DE CHILOE
+  • ¿Que problema de
+  • planificación se
+  • advierte?
+
+DIAPOSITIVA 16:
+  • COMUNA DE PUCHUNCAVÍ
+  • ¿Que problema de
+  • planificación se
+  • advierte?
+
+DIAPOSITIVA 17:
+  • COMUNA DE TALCAHUANO
+  • ¿Que problema de
+  • planificación se
+  • advierte?
+
+DIAPOSITIVA 18:
+  • ¿Tienes algún ejemplo?
+
+DIAPOSITIVA 19:
+  • PLANIFICACIÓN TERRITORIAL
+
+DIAPOSITIVA 20:
+  • EN QUE CONSISTE PLANIFICACIÓN TERRITORIAL
+  • Identificar y caracterizar los territorios
+  • Generar una base analítica completa, flexible y adaptable
+  • Buscar las soluciones más apropiadas
+
+DIAPOSITIVA 21:
+  • PRINCIPIOS ORIENTAN EL DESARROLLO TERRITORIAL
+  • Establecer una relación
+  • privilegiada y virtuosa
+  • con el entorno natural.
+  • Rescatar los rasgos
+  • esenciales de la
+  • identidad social.
+  • Fortalecer las redes
+  • sociales.
+  • Preservar el patrimonio
+  • cultural e histórico.
+  • Asociar el progreso material al
+  • bienestar de las personas para
+  • mejorar su calidad de vida.
+  • PRINCIPIOS QUE ORIENTAN EL LA PLANIFICACIÓN TERRITORIAL
+
+DIAPOSITIVA 22:
+  • EL ROL DE LA PROSPECTIVA EN LA PLANIFICACIÓN TERRITORIAL
+
+DIAPOSITIVA 23:
+  (Diapositiva gráfica sin texto adicional)
+
+DIAPOSITIVA 24:
+  • EL APORTE DE PROSPECTIVA ESTRATEGICA EN LA PLANIFICACIÓN REGIONAL
+  • Enfoque a largo plazo
+  • Enfoque multidisciplinario
+  • Mayor atención al proceso que al resultado
+  • Convergencia hacia uno o más objetivos y/o posibles escenarios
+
+DIAPOSITIVA 25:
+  • Es una práctica de carácter administrativo-
+  • político,
+  • bajo
+  • un
+  • enfoque
+  • interdisciplinario y global, de expresión
+  • espacial de las políticas económicas,
+  • sociales, culturales y ecológicas.
+  • ORDENAMIENTO TERRITORIAL
+  • Orientar el  desarrollo
+  • de
+  • las
+  • actividades
+  • humanas
+  • sobre
+  • un
+  • territorio, solucionando
+  • los
+  • problemas
+  • y
+  • desequilibrios que de
+  • ellas se derivan
+
+DIAPOSITIVA 26:
+  • INSTRUMENTOS DE ORDENAMIENTO TERRITORIAL DE CARÁCTER REGULADOR
+  • Planes Reguladores Intercomunales y Metropolitanos
+  • Plan Regulador Comunal
+  • Límite Urbano
+  • Plan Regional de Ordenamiento Territorial (PROT)
+  • Planes intercomunales de inversiones en infraestructura
+  • de movilidad y espacios públicos
+  • Políticas publicas regionales: A Continuación……
+
+DIAPOSITIVA 27:
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+  • Estrategia Regional de
+  • Desarrollo (ERD)
+
+DIAPOSITIVA 28:
+  (Diapositiva gráfica sin texto adicional)
+
+DIAPOSITIVA 29:
+  • Plan de Acción
+  • ERD de Ñuble
+  • 2020-2028
+
+DIAPOSITIVA 30:
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+  • Plan Regional de Desarrollo Urbano (PRDU)
+  • Plan Regional de
+  • Desarrollo Urbano (PRDU)
+
+DIAPOSITIVA 31:
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+  • Plan de Desarrollo
+  • Comunal (PLADECO)
+  • Fuente:
+  • http://www.hualpenciudad.cl/wp-
+  • content/uploads/2021/01/PLADECO-2021-2025.final_.pdf
+
+DIAPOSITIVA 32:
+  • https://www.municipalidaddev
+  • alparaiso.cl/archivos/2019/PLA
+  • DECO/PROPUESTA_PLADECO
+  • _2019.pdf
+
+DIAPOSITIVA 33:
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+  • Zonificación Borde
+  • Costero (ZBC)
+  • ELABORACIÓN
+  • DE PLAN DE
+  • TRABAJO
+  • TENDENCIA Y
+  • CONFLICTOS
+  • TERRITORIALES
+  • PARTICIPACIÓN CIUDADANA
+  • MAPA SEMÁFORO
+  • AJUSTADO
+  • (3´)
+  • C. OPCIÓN DE
+  • DESARROLLO
+  • ESCOGIDA
+  • Participación Ciudadana Temprana
+  • CARTA BASE Y
+  • SISTEMATIZACIÓN
+  • DE INFORMACIÓN
+  • TERRITORIAL
+  • FASE DE PREPARACIÓN
+  • FASE DE DIAGNÓSTICO Y PROSPECTIVA
+  • FASE DE PROPUESTA
+  • FASE DE VALIDACIÓN
+  • PLANTEAMIENTO INICIAL
+  • • Problema de decisión
+  • • Objeto de evaluación
+  • • Objetivos Estratégicos
+  • EVALUACION E
+  • INSTALACIÓN
+  • INDUCCION DEL
+  • PROCESOS
+  • Incorporación
+  • temprana del
+  • MMA
+  • IDENTIFICACIÓN
+  • PRELIMINAR DE
+  • ACTORES
+  • DIFUSIÓN DEL
+  • PROCESO
+  • EVALUACIÓN DE
+  • CAPACIDADES
+  • INSTALADAS
+  • P
+  • R
+  • O
+  • D
+  • U
+  • C
+  • T
+  • O
+  • S
+  • RECOPILACIÓN
+  • INFORMACIÓN
+  • BASE
+  • (1) IDENTIFICACIÓN FACTORES
+  • CRITICOS DE DECISIÓN
+  • RECOPILACIÓN
+  • INFORMACIÓN
+  • BASE
+  • REVISIÓN Y/O
+  • ELABORACIÓN DE
+  • CARTA BASE
+  • Tiempo máximo para
+  • comunicación de Inicio de EAE
+  • DIAGNÓSTICO
+  • DESCRIPTIVO
+  • (Línea Base)
+  • DELIMITACIÓN
+  • ÁREA DE
+  • PLANIFICACIÓN
+  • DATOS E
+  • INDICADORES DE
+  • CARACTERIZACIÓN
+  • TERRITORIAL
+  • CARTOGRAFIA
+  • TEMATICA
+  • LINEA BASE
+  • DIAGNÓSTICO
+  • ANALITICO
+  • INTEGRACIÓN
+  • DIMENSIONES
+  • CARACTERIZACIÓN
+  • TERRITORIAL
+  • ESTABLECIMIENTO
+  • DE ZONAS
+  • HOMOGENEAS
+  • MODELO ACTUALD
+  • E OCUPACIÓN DE
+  • ZONAS COSTERA
+  • IMAGEN
+  • OBJETIVO Y
+  • PROSPECTIVA
+  • ANALISIS DE
+  • ESCENARIOS:
+  • TENDENCIAL Y
+  • DESEABLE
+  • CONSTRUCCION DE
+  • IMAGEN OBJETIVO
+  • MODELO
+  • FUTURO DE
+  • OCUPACION
+  • DE ZONA
+  • COSTERA
+  • MAPA
+  • SEMÁFORO
+  • MAPA INTERESESE
+  • SECTORIALES
+  • MATRIZ DE
+  • COMPATIBILIDAD
+  • SUPERPOSICIÓN
+  • DE INTERESES
+  • AJUSTADOS
+  • PROPUESTA
+  • PUBLICA
+  • CONCENSUADA
+  • CRITERIOS
+  • PRELIMINARES
+  • DE
+  • COMPATIBILIDAD
+  • ZONIFICACION
+  • PROPUESTA
+  • PUBLICA
+  • ZONIFICACION
+  • PROPUESTA
+  • PUBLICA PRIVADA
+  • SUPERPOSICIÓN
+  • INTERESES ACTORES
+  • PRIVADOS
+  • MATRIZ DE
+  • COMPATIBILIDAD
+  • AJUSTADA
+  • PROPUESTA
+  • PUBLICO-PRIVADA
+  • CONCENSUADA
+  • CRITERIOS
+  • DEFINITIVOS DE
+  • COMPATIBILIDAD
+  • (3)
+  • A. IDENTIFICACION DE OPCIONES DE DESARROLLO
+  • B.  IMPLICANCIAS DEL MEDIO AMBIENTE (RIESGOS
+  • Y OPORTUNIDADES)
+  • D.IDENTIFICACIÓN
+  • DE
+  • INDICADORES
+  • DE
+  • SEGUIMIENTO
+  • INFORME
+  • AMBIENTAL ZBC
+  • ANTEPROYECTO
+  • ZBC
+  • CONSULTA
+  • PÚBLICA
+  • APROBACION
+  • POR PARTE DE
+  • LA CRUBC
+  • APROBACION
+  • POR PARTE DE
+  • LA CNUBC
+  • DECRETO
+  • SUPREMO ZBC
+  • (2) DIAGNOSTICO AMBINETAL ESTRATEGICO
+  • CONSTRUCCION DE OBJETIVOS AMBIENTALES Y CRITERIOS DE DESARROLLO SUSTENTABLE
+  • COORDINACIÓN DE ÓRGANOS DE LA ADMINISTRACIÓN DEL ESTADO
+  • PLANTEAMIENTO FINAL
+  • • Problema de decisión
+  • • Objeto de evaluación
+  • • Objetivos Estratégicos
+  • Cuadro Explicativo
+  • (N°) Hitos donde debe estar
+  • presente el MMA
+  • Nomenclatura
+  • EAE: Evaluación Ambiental
+  • Estratégica
+  • CNUBC: Comisión Nacional
+  • de Uso de Borde Costero
+  • CRUBC: Comisión Regional
+  • de Uso de Borde Costero
+  • MMA: Ministerio de Medio
+  • Ambiente
+  • ZBC: Zonificación del Borde
+  • Costero
+  • Etapas de EAE en
+  • Etapas de Zonificación
+  • Etapas unidad
+  • Zonificación y EAE
+
+DIAPOSITIVA 34:
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+  • https://mapas.subpesca.cl/ideviewer/
+
+DIAPOSITIVA 35:
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+  • Áreas de Desarrollo
+  • Indígena (ADI)
+
+DIAPOSITIVA 36:
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+  • Plan Regional de Ordenamiento
+  • Territorial (PROT)
+
+DIAPOSITIVA 37:
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+
+DIAPOSITIVA 38:
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+  • Plan Intercomunal de Inv. en Infra.
+  • de Movilidad y Espacios Públicos
+
+DIAPOSITIVA 39:
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+  • Ley 20.249 sobre el Espacio Costero
+  • Marino de los Pueblos Originarios
+  • Interesante de revisar.
+  • Guía para la Aplicación de la
+  • Ley de Espacios
+  • Costeros Marinos para Pueblos
+  • Originarios
+  • https://www.subpesca.gob.cl/p
+  • ortal/616/articles-
+  • 82585_recurso_1.pdf
+  • DECRETADAS CON
+  • CONVENIO DE USO
+  • REGIONES
+  • 94  SOLICITUDES
+  • 7
+  • Estado de situación solicitudes ECMPO (Enero 2021) 9
+
+DIAPOSITIVA 40:
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+  • Política Regional de
+  • Localidades Aisladas (PRLA)
+  • Fuente:
+  • http://www.subdere.gov.cl/sites/default/files/documentos/politica_
+  • regional_localidades_aisladas_ohiggins.pdf
+  • MATRIZ DE JERARQUIZACIÓN
+
+DIAPOSITIVA 41:
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+  • Principios Generales PRLA:
+  • Busca la equidad social, por cuanto propende a facilitar a todos los ciudadanos del país, las mismas
+  • oportunidades de acceso a los servicios básicos para que puedan desarrollar sus potencialidades; es
+  • decir, la igualdad de oportunidades no se hace efectiva sino hasta que existe la posibilidad concreta de
+  • obtener recursos para el desarrollo de cada persona de la comunidad en general.
+  • Aspira a lograr a una equidad territorial, por cuanto identifica las variables de cada región que
+  • estimulan las potencialidades de las distintas localidades y que inciden en su desarrollo armónico.
+  • Es subsidiaria, pues considera, en las políticas públicas, la implementación de acciones y la asignación
+  • de recursos para mejorar las condiciones de vida de los habitantes, especialmente en lugares donde es
+  • necesario que el Estado estimule la inversión para desarrollar la actividad económica con el
+
+DIAPOSITIVA 42:
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+  • Es excepcional, por cuanto debe considerar la condición de aisladas que tienen algunas
+  • localidades, lo cual implica una complejidad mayor para instalar políticas públicas efectivas que
+  • propenda al desarrollo económico y social.
+  • Es de soberanía, por cuanto el Estado debe asegurar su presencia en todo el territorio nacional,
+  • independiente de las condiciones de accesibilidad, climáticas, entre otras, a través de sus diversas
+  • instituciones e instrumentos. Lo anterior, con el fin de facilitar los procesos de integración territorial,
+  • la participación de los ciudadanos en la vida democrática del país y procurar la acción multisectorial
+  • en la dotación de la infraestructura económica y social.
+  • Busca fortalecer la descentralización, toda vez que se debe radicar en las instituciones regionales,
+  • con el objeto de apoyar procesos de inversión y satisfacer de mejor forma las necesidades
+  • económicas, culturales y sociales.
+
+DIAPOSITIVA 43:
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+  • Política Regional de Fomento de las Actividades Productivas
+  • Política Regional de Fomento
+  • de las Actividades Productivas
+
+DIAPOSITIVA 44:
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+  • Plan Regional de Desarrollo
+  • Turístico
+  • Fuente:
+  • https://issuu.com/cytiesid/docs/plan_regio
+  • nal_de_turismo_sustentabl
+
+DIAPOSITIVA 45:
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+  • Política Regional de Ciencia, Tecnología e Innovación para el Desarrollo
+  • Política Regional de Ciencia,
+  • Tecnología e Innovación
+  • para el Desarrollo
+  • Fuente:
+  • https://www.conicyt.cl/regional/files/2012/
+  • 09/articles-37750_Documento2.pdf
+
+DIAPOSITIVA 46:
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+  • Estrategia Regional de Ciencia, Tecnología e Innovación para el Desarrollo
+  • Estrategia Regional de Ciencia,
+  • Tecnología e Innovación para
+  • el Desarrollo
+
+DIAPOSITIVA 47:
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+  • Plan de Desarrollo de Zonas Rezagadas (PDZRs)
+  • Plan de Desarrollo de Zonas
+  • Rezagadas (PDZRs)
+
+DIAPOSITIVA 48:
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+  • La Política Nacional de Zonas de Rezago en Materia Social, se sustenta en 7 principios y que deben
+  • reflejarse en los planes de desarrollo. Estos corresponden a:
+  • Intersectorialidad:
+  • Da
+  • cuenta
+  • del
+  • trabajo
+  • coordinado entre los distintos servicios y órganos de
+  • la administración del Estado, constituyéndose en
+  • ciertos
+  • casos
+  • en
+  • mesas
+  • intersectoriales
+  • de
+  • coordinación en las regiones.
+  • Integralidad: Las brechas sociales a intervenir se
+  • deben analizar de manera multidimensional, con el
+  • fin de determi- nar sus causas y así, crear o diseñar
+  • intervenciones focalizadas para reducirlas.
+  • Interesante de revisar.
+  • Reglamento que fija la Política Nacional sobre Zonas
+  • Rezagadas en Materia Social
+  • Unidad de Territorios de Convergencia
+  • http://territoriosdeconvergencia.subdere.gov.cl/files/
+  • doc_zonas_rezagadas/Presentaci%C3%B3n%20Regla
+  • mento%20Pol%C3%ADtica%20Nacional%20Zonas%2
+  • 0Rezagadas%20en%20Materia%20Social.pdf
+
+DIAPOSITIVA 49:
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+  • Transitoriedad: El plazo máximo de vigencia de un plan es de ocho años.
+  • Fortalecimiento y desarrollo de las capacidades humanas locales: Formación profesional o
+  • técnica, acceso a oportunidades laborales, retención de capital humano calificado a nivel comunal y
+  • regional.
+  • Cooperación público-privada: Impulsar el trabajo mancomunado entre los órganos públicos y
+  • entidades o actores del sector privado, presentes en el territorio.
+  • Sostenibilidad: Las partes que intervienen deberán propender y comprometerse mediante
+  • acciones a la superación de las brechas sociales.
+  • Transparencia: Uso de criterios objetivos que permitan medir correctamente la ejecución de los
+  • recursos, en términos de calidad y pertinencia de las intervenciones focalizadas.
+
+DIAPOSITIVA 50:
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+  • INSTRUMENTOS DE PLANIFICACIÓN REGIONAL Y COMUNAL
+  • http://territoriosdeconvergencia.subdere.gov.cl/files/doc_zonas_rezagadas/Plan%20de%20D
+  • esarrollo%20Zonas%20Rezagadas%20Provincia%20del%20Ranco_compressed.pdf
+  • http://territoriosdeconvergencia.subdere.gov.cl/files/doc_zonas_rezagadas/Plan%20de%20D
+  • esarrollo%20de%20Zonas%20Rezagadas%20O'Higgins_compressed.pdf
+
+DIAPOSITIVA 51:
+  • Son elementos fundamentales para realizar
+  • el marco teórico, la fundamentación y
+  • justificación de nuestros proyectos en
+  • vinculación con el medio……
+  • INSTRUMENTOS DE PLANIFICACIÓN
+  • REGIONAL Y COMUNAL
+
+DIAPOSITIVA 52:
+  • Asistencia
+  • •
+  • Recuerde completar el formulario
+  • de asistencia UNA vez.
+  • •
+  • No olvide que la asistencia se
+  • coteja con la conexión a Zoom,
+  • así que asegúrese de tener su
+  • nombre en el usuario.
+  • •
+  • https://forms.cloud.microsoft/r/XcU
+  • ZU7yZea
+
+DIAPOSITIVA 53:
+  (Diapositiva gráfica sin texto adicional)
+
+DIAPOSITIVA 54:
+  • HERRAMIENTAS DE ANALISIS DEL TERRITORIO
+  • La participación se ha definido como un
+  • mecanismo que contribuye a fortalecer la
+  • ciudadanía y dar mayor legitimidad y eficiencia a
+  • las políticas públicas.
+  • http://desarrollomunicipal.subdere.gov.cl/sites/defaul
+  • t/files/Participacion%20Ciudadana%20en%20la%20pla
+  • nificaci%C3%B3n%20Regional.pdf
+
+DIAPOSITIVA 55:
+  • HERRAMIENTAS DE ANALISIS DEL TERRITORIO
+  • PARTICIPACIÓN:
+  • MAPA DE ACTORES CLAVES
+  • MECANISMOS DE PARTICICPACIÓN
+  • MECANISMOS DE INCLUSIÓN
+  • CONFORMACIÓN DE GT
+  • LEVANTAMIENTO INFORMACIÓN
+  • DIAGNÓSTICO
+  • LINEA DE BASE (11)
+  • ANALISIS FODA
+  • ANALISIS CAME
+  • ANALISIS PESTEL
+  • PROSPECTIVA
+  • MATRIZ IGO
+  • MIC – MAC
+  • DELPHI
+  • MACTOR
+  • ESTRATEGIA
+  • BALANCE SCORECARD
+  • ACCIÓN
+  • ARBOLES PROBLEMA SOLUCIÓN
+  • CADENA DE VALOR
+  • INDICADORES
+
+DIAPOSITIVA 56:
+  • HERRAMIENTAS DE ANALISIS DEL TERRITORIO
+  • M
+  • MapAa dCe Actores Claves
+
+DIAPOSITIVA 57:
+  • ¿Cuántos actores claves o partes
+  • interesadas puede tener un
+  • proyecto?
+  • ¿Qué consecuencias tiene el no
+  • reconocerlos y gestionar sus
+  • intereses?
+
+DIAPOSITIVA 58:
+  (Diapositiva gráfica sin texto adicional)
+
+DIAPOSITIVA 59:
+  (Diapositiva gráfica sin texto adicional)
+
+DIAPOSITIVA 60:
+  (Diapositiva gráfica sin texto adicional)
+
+DIAPOSITIVA 61:
+  • El  mapeo  de  actores  supone  una
+  • herramienta para entender la realidad
+  • de un escenario social específico; sirve
+  • para “tomar una fotografía” de las
+  • personas y grupos que participan de
+  • una  serie  de  interacciones  sociales
+  • sostenidas y dirigidas a abordar un
+  • problema público1.
+  • MAC
+  • MAC
+  • HERRAMIENTAS DE ANALISIS DEL TERRITORIO:
+
+DIAPOSITIVA 62:
+  • El mapeo de actores debe ser considerando como
+  • un primer paso para lograr la convocatoria de la
+  • sociedad  civil  en  las  acciones  participativas
+  • (talleres, reuniones, seminarios, etc.) con ello no
+  • solo   se   asegura   el   número   sino   la
+  • representatividad  de  las  personas  o  entes
+  • (asociaciones,  fundaciones,  organizaciones  de
+  • base, instituciones gubernamentales, etc.) que se
+  • están invitando a participar.
+  • MAC
+  • MAC
+  • HERRAMIENTAS DE ANALISIS DEL TERRITORIO:
+
+DIAPOSITIVA 63:
+  • La utilización del mapeo de actores o también
+  • llamado “sociograma” ayuda a representar la
+  • realidad  social  en  la  que  se  intervendrá,
+  • comprenderla  en  su  complejidad  y  diseñar
+  • estrategias de intervención con más elementos
+  • que el solo sentido común o la sola opinión de
+  • un informante calificado.
+  • MAC
+  • MAC
+  • HERRAMIENTAS DE ANALISIS DEL TERRITORIO:
+
+DIAPOSITIVA 64:
+  • El MAC es fundamental en el diseño y
+  • puesta en marcha de todo proyecto, así
+  • como también a la hora de
+  • negociar/construir en conjunto el
+  • programa de acción a seguir.
+  • MAC
+  • MAC
+  • HERRAMIENTAS DE ANALISIS DEL TERRITORIO:
+
+DIAPOSITIVA 65:
+  • El MAC permite descubrir por ejemplo
+  • ¿quién presiona y por qué? ¿Quién no
+  • puede puede ser escuchado? ¿Quienes
+  • son los actores que integradores y
+  • quienes son los que dividen?.
+  • MAC
+  • MAC
+  • HERRAMIENTAS DE ANALISIS DEL TERRITORIO:
+
+DIAPOSITIVA 66:
+  • PASO 1: Definir claramente el
+  • objetivo de la intervención y
+  • lograr un entendimiento inicial
+  • del sistema
+  • MAC
+  • MAC
+  • HERRAMIENTAS DE ANALISIS DEL TERRITORIO:
+
+DIAPOSITIVA 67:
+  • PASO 2: Identificar
+  • los actores claves
+  • MAC
+  • MAC
+  • HERRAMIENTAS DE ANALISIS DEL TERRITORIO:
+
+DIAPOSITIVA 68:
+  • 1.Sectorial. Dado los distintos sectores presentes en nuestro escenario (público, académico,
+  • sociedad civil, sector privado, medios de comunicación, etc.) identificar aquellos que consideremos
+  • como relevantes.
+  • 2.Jurisdiccional. Muchas veces una temática/proyecto tiene la capacidad de impactar en distintos
+  • niveles: nacional, regional, provincial, comunal y local. (no son lo únicos)
+  • 3.Profesional/disciplinaria. Esta dimensión recoge los distintos “saberes” relevantes para
+  • abordar una problemática. Dado que la realidad es un fenómeno de gran complejidad, cada vez es
+  • más importante considerar distintas disciplinas o saberes para generar soluciones sostenibles.
+  • 4.Relacional. Considera los tipos y niveles de relaciones que existen entre los actores identificados
+  • en todas sus dimensiones, y cuya lectura y comprensión permitirá́ delinear las estrategias de
+  • vinculación con cada uno de ellos.
+  • 5.Nivel de poder. El poder ha de ser entendido en toda su complejidad, y sobre todo focalizando
+  • en la capacidad de influencia que puede tener cada actor respecto a una temática o problemática
+  • especifica.
+  • 6.Posicionamiento. El posicionamiento entendido en términos de nivel de cercanía/apoyo o
+  • rechazo a una iniciativa dada. Este puede ir variando en el tiempo en función de distintas razones.
+  • 7. Generales. hombre/mujer; joven/adulto/viejo; urbano/rural; localizados en el áreas de
+  • interés/localizados fuera del áreas de interés; etc.
+  • Una vez que tenemos
+  • definido el/los objetivos
+  • del mapeo, es importante
+  • identificar las variables
+  • que consideremos
+  • relevantes analizar y/o
+  • cruzar a los fines de
+  • elaborar el mapeo.
+  • Algunos ejemplos de
+  • variables frecuentes son:
+  • MAC
+  • MAC
+  • HERRAMIENTAS DE ANALISIS DEL TERRITORIO:
+
+DIAPOSITIVA 69:
+  • Si no fuera posible esta construcción colectiva, resulta
+  • imprescindible validarlo con la mayor cantidad de actores
+  • sociales involucrados posible.
+  • MAC
+  • MAC
+  • HERRAMIENTAS DE ANALISIS DEL TERRITORIO:
+
+DIAPOSITIVA 70:
+  • PASO 3: Evaluar los intereses
+  • de los actores en relación con
+  • la intervención y los impactos
+  • respecto a estos intereses
+  • MAC
+  • MAC
+  • HERRAMIENTAS DE ANALISIS DEL TERRITORIO:
+
+DIAPOSITIVA 71:
+  • De esta forma, las decisiones serán consensuadas y
+  • generarán mayor compromiso y responsabilidad sobre
+  • los cambios que logre el proyecto.
+  • EL MAC debe ser aplicado de manera participativa,
+  • permitiendo a todos los actores involucrarse en los
+  • niveles y fases del proyecto que mas interese.
+  • MAC
+  • MAC
+  • HERRAMIENTAS DE ANALISIS DEL TERRITORIO:
+
+DIAPOSITIVA 72:
+  • PASO 4: Evaluar la influencia
+  • e importancia de los actores”
+  • Se pueden utilizar las siguientes preguntas: ¿Cuáles son
+  • los problemas que el proyecto busca aliviar, y a que
+  • actores afecta?, ¿A qué actores el proyecto da prioridad
+  • a sus necesidades, intereses y expectativas?, ¿Cuáles son
+  • los intereses de los actores que convergen de manera
+  • más cercana con políticas y objetivos del proyecto?
+  • MAC
+  • MAC
+  • HERRAMIENTAS DE ANALISIS DEL TERRITORIO:
+
+DIAPOSITIVA 73:
+  • PASO 5: Establecer una
+  • estrategia para la
+  • participación de los actores”
+  • MAC
+  • MAC
+  • HERRAMIENTAS DE ANALISIS DEL TERRITORIO:
+
+DIAPOSITIVA 74:
+  • PASO 6: Diseño del MAC
+  • Producto del mapeo el sociograma
+  • representa gráficamente las relaciones
+  • sociales y sectoriales de los actores en
+  • la dinámica de interrelación y en el
+  • marco de un territorio definido
+  • MAC
+  • MAC
+  • HERRAMIENTAS DE ANALISIS DEL TERRITORIO:
+
+DIAPOSITIVA 75:
+  • PODER
+  • MEDIO
+  • APOYO FUERTE
+  • OPOSICIÓN DÉBIL
+  • APOYO
+  • APOYO DÉBIL
+  • APOYO MEDIO
+  • OPOSICIÓN MEDIA
+  • OPOSICIÓN FUERTE
+  • BAJO
+  • ALTO
+  • MAC-PODER & APOYO
+
+DIAPOSITIVA 76:
+  • INFLUENCIA
+  • MEDIO
+  • INTERÉS MEDIO
+  • INTERÉS ALTO
+  • INTERES
+  • NULO INTERÉS
+  • INTERÉS BAJO
+  • INTERES MUY ALTO
+  • BAJO
+  • ALTO
+
+DIAPOSITIVA 77:
+  • A
+  • B
+  • F
+  • D
+  • E
+  • C
+  • P
+  • R
+  • M
+  • G
+  • Z
+  • X
+  • T
+  • 13 ACTORES EN 3 DISTINTOS
+  • SECTORES O ÁMBITOS
+  • MAC-RELACIONES
+
+DIAPOSITIVA 78:
+  • TIPO DE RELACIÓN
+  • CONECTOR
+  • COLABORACIÓN - ALIANZA
+  • TENSIÓN - CONFLICTO
+  • INTERMITENCIA ALTERNANCIA
+  • AUSENCIA
+  • INFLUENCIA SOBRE
+
+DIAPOSITIVA 79:
+  • ACTORES CON
+  • ALTA
+  • LEGITIMIDAD
+  • ACTORES CON
+  • IMPORTANTES
+  • VINCULOS
+  • ACTORES CON
+  • IMPORTANTES
+  • RECURSOS
+  • ACTORES
+  • CLAVES
+  • Otra forma de definir a un actor involucrado clave,
+  • analizamos las tres funciones centrales decisivas, para
+  • tener una posición clave en el contexto del proyecto:
+  • a)Legitimidad
+  • b) Recursos
+  • c)Red
+  • Diagrama de Venn: LRV
+
+DIAPOSITIVA 80:
+  • POLITICO INSTITUCIONAL
+  • SOCIAL
+  • ECONÓMICO
+  • MARGINADO
+  • RESPETADO
+  • INACTIVO
+  • FUERTE
+  • INFLUYENTE
+  • VULNERABLE
+  • Enfoque se recurrió al Análisis Social
+  • CLIP (Colaboración/Conflicto,
+  • Legitimidad, Intereses, Poder)
+  • SAS2 : guía para la investigación colaborativa y la movilización social.
+  • Diagrama de Venn: CLIP
+  • Chevalier, Jacques M.; Buckles, Daniel J.
+  • https://idl-bnc-
+  • idrc.dspacedirect.org/bitstream/handle/10625/39895/1/IDL-39895.pdf
+
+DIAPOSITIVA 81:
+  • Actores Claves mixtos
+  • ESTRATEGIA
+  • COLABORAR
+  • Actores Claves de apoyo
+  • ESTRATEGIA
+  • IMPLICAR
+  • Actores Claves NO Apoyo
+  • ESTRATEGIA
+  • DEFENSA
+  • Actores Claves Marginal
+  • ESTRATEGIA
+  • CONTROLAR
+  • BAJO
+  • ALTO
+  • BAJO
+  • ALTO
+  • POTENCIAL DE COOPERAR CON EL
+  • PROYECTO
+  • POTENCIAL DE AMENAZAR EL
+  • PROYECTO
+  • Savage, G. y otros (1991). "Strategies for assessing and managing organizational stakeholders" Academy of Management Executive.
+  • Savage
+  • presenta
+  • una
+  • matriz de doble entrada
+  • con dos ejes críticos: el
+  • potencial de estos actores
+  • para
+  • amenazar
+  • a
+  • la
+  • organización y el potencial
+  • de estos grupos de interés
+  • de
+  • cooperar
+  • con
+  • la
+  • organización.
+
+DIAPOSITIVA 82:
+  • Fuente: Gardner y otros, Manual de Planeamiento Estratégico, 1986.
+
+DIAPOSITIVA 83:
+  • Algunos de los elementos que se podrían analizar en términos generales podrían ser los siguientes:
+  • ⦿Viabilidad de un proyecto en función de su nivel de apoyo/rechazo.
+  • ⦿Visibilizar la tendencia y/o el nivel de polarización de un conflicto.
+  • ⦿Identificar relaciones dominantes en cada espacio.
+  • ⦿Clarificar dónde aparecen los principales conflictos o rupturas en el entramado de relaciones.
+  • ⦿Identificar actores más proclives al diálogo y la negociación; y actores más radicalizados en su
+  • posicionamiento.
+  • ⦿Identificar a los actores más débiles/vulnerables.
+  • ⦿Identificar posibilidades de construcción de coaliciones/alianzas que ayuden a construir
+  • estrategias de negociación y/o a escalar/desescalar un conflicto.
+
+DIAPOSITIVA 84:
+  • PASO 7: Desarrollo de base de
+  • datos y sistema de información
+  • geográfica de MAC
+
+DIAPOSITIVA 85:
+  • Consideraciones metodológicas y reflexiones
+  • a) El investigador debe confeccionar el MAC mediante la triangulación de informaciones y el posterior
+  • análisis discursivo.
+  • b) Se deben incorporar los sectores formales e informales de la población, los dirigentes y comunidad
+  • de base (incluso aquellos no vinculados). Mientras más heterogéneo sea el grupo, mejor.
+  • c) La clasificación de actores claves debiera ser validada a través de un taller que involucre a los
+  • representantes de los supuestos ‘aglomerados’ o ‘clusters’ de actores.
+  • d) Se debe evitar limitar la construcción del MAC producto de supuestos iniciales o los primeros
+  • contactos con los actores sociales.
+  • e) Cuando se analiza la realidad social o territorial a través de un MAC, no se está buscando realizar una
+  • cuantificación, sino un análisis cualitativo de la realidad observada.
+
+DIAPOSITIVA 86:
+  • Consideraciones metodológicas y reflexiones
+  • g) El análisis del MAC puede ser desde la perspectiva relacional, donde el análisis se concentra sobre
+  • las relaciones entre los actores, tanto directas como indirectas. O del análisis posicional, en el que el
+  • foco son las formas que adquieren los diferentes conjuntos de actores (Conjuntos o bloques)
+  • h) Es conveniente después haber desarrollado la versión final del MAC (validada), construir una base de
+  • datos que permita en forma periódica ir actualizándolo.
+  • i)
+  • Es recomendable también realizar varios MACs para captar distintos planos de la situación, lo cual
+  • permitiría observar procesos.
+  • j)
+  • En algunos proyectos, se sugiere construir el MAC mediante diferentes cortes; uno del pasado,
+  • presente y otro de un segundo momento o bien del escenario futuro.
+  • k) Hay que resaltar que el MAC no debe ser aplicado como la única herramienta para el diagnostico yo
+  • comprensión de la realidad en un determinado contexto.
+
+DIAPOSITIVA 87:
+  • Patrón persuasivo de Monroe
+  • Una metodología simple para involucrar a los actores claves en el proyecto, es la secuencia motivadora
+  • de Monroe.
+  • Atención: Llame la atención de los actores claves a partir de las causas del problema y sus
+  • consecuencias. Entregue datos duros.
+  • Necesidad: Evidencie la necesidad de contar con una solución que aborde esas causas. Visualice
+  • escenarios negativos o de contraste.
+  • Satisfacción: Explique a las partes interesadas, de qué manera el proyecto contribuirá a
+  • solucionar el problema. Entregue información relevante. Apóyese en experiencia comparada.
+  • Visualización: Señala los escenarios positivos que podrían derivar del proyecto.
+  • Acción: Proponga y defina con los actores claves, el rol y la importancia que tiene cada uno de
+  • ellos a la diseñar e implementar la solución. Señale sus expectativas respecto a su desempeño y
+  • su grado de compromiso con el proyecto.
+
+DIAPOSITIVA 88:
+  (Diapositiva gráfica sin texto adicional)
+
+DIAPOSITIVA 89:
+  (Diapositiva gráfica sin texto adicional)
+
+DIAPOSITIVA 90:
+  • Algunos actores
+
+DIAPOSITIVA 91:
+  (Diapositiva gráfica sin texto adicional)
+
+DIAPOSITIVA 92:
+  (Diapositiva gráfica sin texto adicional)
+
+DIAPOSITIVA 93:
+  • OTRAS HERRAMIENTAS Y EJERCICIOS DE PLANIFICACIÓN
+  • OTRAS HERRAMIENTAS Y EJERCICIOS
+  • DE PLANIFICACIÓN
+
+DIAPOSITIVA 94:
+  • Planificación Territorial
+
+DIAPOSITIVA 95:
+  • ¿Para qué sirve?
+  • Al evidenciar en las estrategias los
+  • factores internos considerados como
+  • fortalezas y debilidades junto con las
+  • variables externas asociadas
+  • comúnmente como amenazas y
+  • oportunidades, se puede optimizar la
+  • realización de estas, estableciendo
+  • medidas paliativas para enfrentar las
+  • problemáticas a futuro.
+  • MATRIZ FODA
+
+DIAPOSITIVA 96:
+  • ¿Para qué sirve?
+  • Al evidenciar en las estrategias los
+  • factores internos considerados como
+  • fortalezas y debilidades junto con las
+  • variables externas asociadas
+  • comúnmente como amenazas y
+  • oportunidades, se puede optimizar la
+  • realización de estas, estableciendo
+  • medidas paliativas para enfrentar las
+  • problemáticas a futuro.
+  • MATRIZ ESTRATEGIAS COMBINADAS
+  • MATRIZ ESTRATEGIAS COMBINADAS
+  • Factores
+  • Externos
+  • Factores
+  • Internos
+  • Fortalezas
+  • Debilidades
+  • Oportunidades
+  • Amenazas
+
+DIAPOSITIVA 97:
+  • MATRIZ ESTRATEGIAS COMBINADAS
+
+DIAPOSITIVA 98:
+  • CUADRO DE PRIORIZACIONES DE ESTRATEGIAS
+
+DIAPOSITIVA 99:
+  • ¿Para qué sirve?
+  • Este instrumento asocia una imagen
+  • objetivo a la relación entre estrategias y
+  • acciones.
+  • Fuente: Cambio Climático en Planificación Urbana Integrada
+  • https://www.international-climate-
+  • initiative.com/fileadmin/Dokumente/2019/20190520_Toolbox  002_.pdf
+  • PLANTILLA IMAGEN OBJETIVO
+  • PLANTILLA IMAGEN OBJETIVO
+
+DIAPOSITIVA 100:
+  • ¿Para qué sirve?
+  • Este instrumento asocia una imagen
+  • objetivo a la relación entre estrategias y
+  • acciones.
+  • PLANTILLA IMAGEN OBJETIVO
+  • PLANTILLA IMAGEN OBJETIVO
+
+DIAPOSITIVA 101:
+  • ¿Para qué sirve?
+  • Este instrumento asocia una imagen
+  • objetivo a la relación entre estrategias y
+  • acciones.
+  • PLANTILLA IMAGEN OBJETIVO
+  • PLANTILLA IMAGEN OBJETIVO
+
+DIAPOSITIVA 102:
+  • ¿Para qué sirve?
+  • Este cuadro permite hacer la relación
+  • costo/beneficio e identificar las
+  • acciones de mayor impacto. Una vez
+  • validada puede ser socializada y
+  • difundida ampliamente como parte
+  • del Concepto.
+  • Fuente: Cambio Climático en Planificación Urbana Integrada
+  • https://www.international-climate-
+  • initiative.com/fileadmin/Dokumente/2019/20190520_Toolbox  002_.pdf
+  • MATRIZ COSTO/BENEFICIO
+  • MATRIZ COSTO/BENEFICIO
+
+DIAPOSITIVA 103:
+  • ¿Para qué sirve?
+  • El plan operativo es una herramienta de
+  • implementación, sirve tanto para hacer
+  • seguimiento a la ejecución como para
+  • verificar el cumplimiento de los objetivos.
+  • Fuente: Cambio Climático en Planificación Urbana Integrada
+  • https://www.international-climate-
+  • initiative.com/fileadmin/Dokumente/2019/20190520_Toolbox  002_.pdf
+  • PLAN OPERATIVO
+  • PLAN OPERATIVO
+
+DIAPOSITIVA 104:
+  • ¿Para qué sirve?
+  • Bajo este formato es posible estimar la
+  • inversión necesaria para periodos de 5 años
+  • y poder visualizarlo por cada Estrategia.
+  • Permite además calcular la inversión anual
+  • de la implementación.
+  • Fuente: Cambio Climático en Planificación Urbana Integrada
+  • https://www.international-climate-
+  • initiative.com/fileadmin/Dokumente/2019/20190520_Toolbox  002_.pdf
+  • CUADRO DE INVERSIONES
+  • CUADRO DE INVERSIONES
+
+DIAPOSITIVA 105:
+  • ¿Para qué sirve?
+  • Esta herramienta permite hacer
+  • seguimiento a la implementación. La
+  • existencia de indicadores permite
+  • verificar el cumplimiento de los
+  • avances esperados.
+  • Fuente: Cambio Climático en Planificación Urbana Integrada
+  • https://www.international-climate-
+  • initiative.com/fileadmin/Dokumente/2019/20190520_Toolbox  002_.pdf
+  • MATRIZ SEGUIMIENTO
+  • MATRIZ SEGUIMIENTO
+
+DIAPOSITIVA 106:
+  • Escoge un concepto significativo de la
+  • sesión de hoy y compártelo…
+
+DIAPOSITIVA 107:
+  • Asistencia
+  • •
+  • Recuerde completar el formulario
+  • de asistencia UNA vez.
+  • •
+  • No olvide que la asistencia se
+  • coteja con la conexión a Zoom,
+  • así que asegúrese de tener su
+  • nombre en el usuario.
+  • •
+  • https://forms.cloud.microsoft/r/XcU
+  • ZU7yZea

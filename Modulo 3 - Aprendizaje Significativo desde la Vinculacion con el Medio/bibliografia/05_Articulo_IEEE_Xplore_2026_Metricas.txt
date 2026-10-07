@@ -1,0 +1,14 @@
+RECURSO ACCESIBLE: Artículo Científico IEEE Xplore: Métricas y Evaluación del Aprendizaje
+=========================================================================================
+
+DESCRIPCIÓN:
+Publicación disponible en el repositorio de ingeniería y ciencias aplicadas IEEE Xplore Digital Library.
+
+ENLACE DIRECTO:
+https://ieeexplore.ieee.org/abstract/document/11576632/metrics#metrics
+
+INDICACIÓN PARA NAVEGACIÓN:
+Para abrir este enlace en su navegador predeterminado, copie y pegue la dirección en la barra de direcciones o ábralo desde el 'Portal_Accesible_George.html'.
+
+INFORMACIÓN COMPLEMENTARIA:
+Artículo de referencia técnica sobre medición, seguimiento y métricas de transferencia de aprendizajes.

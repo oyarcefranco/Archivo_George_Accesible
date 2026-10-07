@@ -1,0 +1,1936 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portal 100% accesible del Diplomado en Vinculación con el Medio (VcM) 2026 de la Universidad San Sebastián para George Wulf. Diseñado para lectores de pantalla y navegación por teclado.">
+  <title>Diplomado VcM 2026 - Portal Accesible de Aprendizaje</title>
+  <style>
+    /* Reset & Base Accesible */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg-color: #121418;
+      --surface-color: #1c2026;
+      --surface-border: #333a46;
+      --text-main: #f5f7fa;
+      --text-muted: #c1c7d0;
+      --primary: #4dabf7;
+      --primary-hover: #74c0fc;
+      --accent: #ffd43b;
+      --focus-outline: #ffd43b;
+      --card-bg: #222730;
+      --card-hover: #2a313d;
+      --badge-bg: #183247;
+      --badge-text: #a5d8ff;
+      --font-stack: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      --font-scale: 1rem;
+      --line-height: 1.6;
+    }
+
+    /* Modo Alto Contraste Claro */
+    [data-theme="light"] {
+      --bg-color: #f8f9fa;
+      --surface-color: #ffffff;
+      --surface-border: #adb5bd;
+      --text-main: #111827;
+      --text-muted: #374151;
+      --primary: #0b5ed7;
+      --primary-hover: #084298;
+      --accent: #b45309;
+      --focus-outline: #0b5ed7;
+      --card-bg: #ffffff;
+      --card-hover: #f1f3f5;
+      --badge-bg: #e7f5ff;
+      --badge-text: #1864ab;
+    }
+
+    /* Modo Amarillo sobre Negro (Baja Visión Extrema) */
+    [data-theme="yellow-black"] {
+      --bg-color: #000000;
+      --surface-color: #000000;
+      --surface-border: #ffff00;
+      --text-main: #ffff00;
+      --text-muted: #ffff80;
+      --primary: #ffff00;
+      --primary-hover: #ffffff;
+      --accent: #ffffff;
+      --focus-outline: #ffffff;
+      --card-bg: #0d0d00;
+      --card-hover: #1a1a00;
+      --badge-bg: #ffff00;
+      --badge-text: #000000;
+    }
+
+    /* Tamaños de Fuente */
+    [data-font-size="large"] {
+      --font-scale: 1.15rem;
+    }
+    [data-font-size="xlarge"] {
+      --font-scale: 1.3rem;
+    }
+
+    body {
+      font-family: var(--font-stack);
+      font-size: var(--font-scale);
+      line-height: var(--line-height);
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Enlaces de Salto para Lectores de Pantalla */
+    .skip-links {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 10000;
+    }
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 10px;
+      background: var(--accent);
+      color: #000000;
+      padding: 12px 18px;
+      font-weight: 700;
+      font-size: 1.1rem;
+      text-decoration: underline;
+      border-radius: 4px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+      transition: top 0.2s ease-in-out;
+    }
+    .skip-link:focus {
+      top: 10px;
+      outline: 4px solid #ffffff;
+      outline-offset: 2px;
+    }
+
+    /* Elementos solo audibles (Screen Reader Only) */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    /* Enfoque accesible visible */
+    :focus-visible {
+      outline: 3px solid var(--focus-outline) !important;
+      outline-offset: 3px !important;
+    }
+
+    /* Contenedor principal */
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* Cabecera */
+    header {
+      background-color: var(--surface-color);
+      border-bottom: 2px solid var(--surface-border);
+      padding: 24px 0;
+    }
+    .header-content {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .badge-institucion {
+      display: inline-block;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--accent);
+      font-weight: 700;
+    }
+    h1 {
+      font-size: 2rem;
+      line-height: 1.25;
+      color: var(--text-main);
+    }
+    .subtitulo {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+    }
+
+    /* Barra de Accesibilidad */
+    .accessibility-bar {
+      background-color: var(--card-bg);
+      border: 1px solid var(--surface-border);
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+    }
+    .acc-group {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .acc-label {
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    .acc-btn {
+      background-color: var(--surface-color);
+      color: var(--text-main);
+      border: 1px solid var(--surface-border);
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .acc-btn:hover {
+      background-color: var(--primary);
+      color: #000000;
+    }
+    .acc-btn[aria-pressed="true"] {
+      background-color: var(--accent);
+      color: #000000;
+      border-color: var(--accent);
+    }
+
+    /* Atajos de Teclado */
+    .shortcuts-box {
+      background-color: var(--surface-color);
+      border: 1px solid var(--surface-border);
+      border-radius: 6px;
+      padding: 12px 16px;
+      margin-top: 10px;
+      font-size: 0.95rem;
+    }
+    .shortcuts-box summary {
+      cursor: pointer;
+      font-weight: 700;
+      color: var(--primary);
+    }
+    .shortcuts-box ul {
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+    .shortcuts-box li {
+      margin-bottom: 6px;
+    }
+
+    /* Controles de Búsqueda y Filtro */
+    .search-section {
+      background-color: var(--surface-color);
+      border-bottom: 2px solid var(--surface-border);
+      padding: 24px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    .search-box {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .search-input-wrapper {
+      position: relative;
+      display: flex;
+      gap: 10px;
+    }
+    .search-input {
+      flex: 1;
+      padding: 14px 16px;
+      font-size: 1.1rem;
+      border-radius: 6px;
+      border: 2px solid var(--surface-border);
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: inherit;
+    }
+    .search-input:focus {
+      border-color: var(--primary);
+    }
+    .clear-btn {
+      padding: 12px 20px;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 6px;
+      background-color: var(--card-bg);
+      color: var(--text-main);
+      border: 1px solid var(--surface-border);
+      cursor: pointer;
+    }
+    .filter-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 6px;
+    }
+    .filter-chip {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      border: 1px solid var(--surface-border);
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .filter-chip:hover {
+      border-color: var(--primary);
+    }
+    .filter-chip[aria-pressed="true"] {
+      background-color: var(--primary);
+      color: #000000;
+      border-color: var(--primary);
+    }
+
+    /* Contenido Principal */
+    main {
+      flex: 1;
+      padding: 32px 0 60px 0;
+    }
+
+    .modulo-seccion {
+      margin-bottom: 48px;
+      background-color: var(--surface-color);
+      border: 1px solid var(--surface-border);
+      border-radius: 10px;
+      padding: 24px;
+    }
+    .modulo-header {
+      margin-bottom: 24px;
+      border-bottom: 2px solid var(--surface-border);
+      padding-bottom: 12px;
+    }
+    .modulo-header h2 {
+      font-size: 1.6rem;
+      color: var(--primary);
+      margin-bottom: 6px;
+    }
+    .modulo-fechas {
+      font-size: 1rem;
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    /* Grid de Recursos */
+    .recursos-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 20px;
+    }
+
+    /* Tarjeta de Recurso */
+    .recurso-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--surface-border);
+      border-radius: 8px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.15s ease, border-color 0.15s ease;
+    }
+    .recurso-card:hover {
+      border-color: var(--primary);
+      background-color: var(--card-hover);
+    }
+    .card-top {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .card-badge-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 4px;
+    }
+    .badge-formato {
+      background-color: var(--badge-bg);
+      color: var(--badge-text);
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 4px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .badge-categoria {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+    .recurso-card h3 {
+      font-size: 1.15rem;
+      line-height: 1.35;
+      color: var(--text-main);
+    }
+    .recurso-card p {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      margin: 10px 0 16px 0;
+    }
+    .card-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: auto;
+      border-top: 1px solid var(--surface-border);
+      padding-top: 14px;
+    }
+    .btn-link {
+      display: inline-block;
+      text-align: center;
+      padding: 10px 14px;
+      border-radius: 6px;
+      font-weight: 700;
+      text-decoration: underline;
+      font-size: 0.95rem;
+      transition: background 0.15s ease;
+    }
+    .btn-primary {
+      background-color: var(--primary);
+      color: #000000;
+      text-decoration: none;
+    }
+    .btn-primary:hover {
+      background-color: var(--primary-hover);
+      text-decoration: underline;
+    }
+    .btn-secondary {
+      background-color: transparent;
+      color: var(--primary);
+      border: 1px solid var(--primary);
+      text-decoration: none;
+    }
+    .btn-secondary:hover {
+      background-color: var(--surface-color);
+      text-decoration: underline;
+    }
+
+    /* Pie de página */
+    footer {
+      background-color: var(--surface-color);
+      border-top: 2px solid var(--surface-border);
+      padding: 30px 0;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+    footer a {
+      color: var(--primary);
+    }
+
+    /* Mensaje sin resultados */
+    #no-results-msg {
+      padding: 40px;
+      text-align: center;
+      background-color: var(--surface-color);
+      border: 1px solid var(--surface-border);
+      border-radius: 8px;
+      font-size: 1.2rem;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Enlaces de Salto para Usuarios de Lectores de Pantalla y Teclado -->
+  <div class="skip-links" role="region" aria-label="Enlaces de salto rápido">
+    <a href="#contenido-principal" class="skip-link">Saltar directamente al contenido de los módulos (Alt + 1)</a>
+    <a href="#filtro-busqueda" class="skip-link">Saltar al buscador de clases y materiales (Alt + 2)</a>
+    <a href="#panel-accesibilidad" class="skip-link">Saltar a opciones de contraste y tamaño (Alt + 3)</a>
+  </div>
+
+  <!-- Región en vivo para anuncios de lector de pantalla (NVDA / JAWS / Narrador) -->
+  <div id="live-anuncios" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Cabecera Institucional -->
+  <header role="banner">
+    <div class="container header-content">
+      <span class="badge-institucion">Universidad San Sebastián • Dirección General de Vinculación con el Medio</span>
+      <h1>Diplomado en Vinculación con el Medio 2026</h1>
+      <p class="subtitulo">Portal de Estudio 100% Accesible para <strong>George Wulf Sotomayor</strong></p>
+
+      <!-- Panel de Opciones de Accesibilidad -->
+      <nav id="panel-accesibilidad" class="accessibility-bar" aria-label="Ajustes de accesibilidad visual y auditiva">
+        <div class="acc-group">
+          <span class="acc-label">Modo Visual:</span>
+          <button type="button" class="acc-btn" id="btn-theme-dark" aria-pressed="true" onclick="setTheme('dark')">Oscuro Accesible (AAA)</button>
+          <button type="button" class="acc-btn" id="btn-theme-light" aria-pressed="false" onclick="setTheme('light')">Alto Contraste Blanco</button>
+          <button type="button" class="acc-btn" id="btn-theme-yellow" aria-pressed="false" onclick="setTheme('yellow-black')">Amarillo sobre Negro</button>
+        </div>
+        <div class="acc-group">
+          <span class="acc-label">Tamaño de Texto:</span>
+          <button type="button" class="acc-btn" id="btn-font-normal" aria-pressed="true" onclick="setFontSize('normal')">A (Normal)</button>
+          <button type="button" class="acc-btn" id="btn-font-large" aria-pressed="false" onclick="setFontSize('large')">A+ (Grande)</button>
+          <button type="button" class="acc-btn" id="btn-font-xlarge" aria-pressed="false" onclick="setFontSize('xlarge')">A++ (Muy Grande)</button>
+        </div>
+      </nav>
+
+      <!-- Atajos de Teclado -->
+      <details class="shortcuts-box">
+        <summary>Guía de Teclas Rápidas y Navegación para Lectores de Pantalla (Presione Enter para expandir)</summary>
+        <ul>
+          <li><strong>Alt + 1:</strong> Saltar directamente al listado de módulos y materias.</li>
+          <li><strong>Alt + 2:</strong> Enfocar la caja de búsqueda instantánea de materiales.</li>
+          <li><strong>Alt + 3:</strong> Enfocar el panel de opciones visuales y contraste.</li>
+          <li><strong>Tecla H:</strong> En NVDA o JAWS, avance rápidamente entre los títulos de cada módulo (Nivel 2) y cada recurso (Nivel 3).</li>
+          <li><strong>Tecla K:</strong> Liste todos los enlaces interactivos. Todos cuentan con descripciones explícitas del archivo y su destino.</li>
+        </ul>
+      </details>
+    </div>
+  </header>
+
+  <!-- Barra de Búsqueda y Filtros en Tiempo Real -->
+  <section class="search-section" role="search" aria-label="Buscar y filtrar contenidos del diplomado">
+    <div class="container search-box">
+      <label for="filtro-busqueda" class="acc-label" style="font-size: 1.05rem;">
+        Buscar en todo el diplomado (clases, videos, lecturas, autores, quizzes):
+      </label>
+      <div class="search-input-wrapper">
+        <input type="search"
+               id="filtro-busqueda"
+               class="search-input"
+               accesskey="2"
+               placeholder="Ej: desarrollo territorial, Vodanovic, FODA, YouTube, 2026..."
+               aria-describedby="instruccion-busqueda"
+               oninput="filtrarRecursos()">
+        <button type="button" class="clear-btn" onclick="limpiarBusqueda()" aria-label="Limpiar búsqueda y mostrar todos los materiales">
+          Restablecer
+        </button>
+      </div>
+      <p id="instruccion-busqueda" class="sr-only">
+        Escriba para filtrar los recursos en pantalla. Los resultados se actualizarán automáticamente y el lector de pantalla anunciará la cantidad disponible.
+      </p>
+
+      <!-- Filtros por tipo -->
+      <div class="filter-chips" role="group" aria-label="Filtrar por tipo de material">
+        <button type="button" class="filter-chip" data-filter="all" aria-pressed="true" onclick="setCategoryFilter('all')">Todos los Recursos</button>
+        <button type="button" class="filter-chip" data-filter="Grabaciones" aria-pressed="false" onclick="setCategoryFilter('Grabaciones')">Solo Grabaciones en Video</button>
+        <button type="button" class="filter-chip" data-filter="Bibliografia" aria-pressed="false" onclick="setCategoryFilter('Bibliografia')">Solo Lecturas y Papers</button>
+        <button type="button" class="filter-chip" data-filter="Presentaciones" aria-pressed="false" onclick="setCategoryFilter('Presentaciones')">Diapositivas y Transcripciones</button>
+        <button type="button" class="filter-chip" data-filter="Talleres" aria-pressed="false" onclick="setCategoryFilter('Talleres')">Talleres y Casos</button>
+        <button type="button" class="filter-chip" data-filter="Evaluaciones" aria-pressed="false" onclick="setCategoryFilter('Evaluaciones')">Evaluaciones y Quizzes</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contenido Principal -->
+  <main id="contenido-principal" role="main">
+    <div class="container">
+
+      <!-- Mensaje cuando la búsqueda no arroja coincidencias -->
+      <div id="no-results-msg" role="status" aria-live="polite">
+        <p>No se encontraron recursos que coincidan con los términos ingresados.</p>
+        <p style="margin-top: 10px;">
+          <button type="button" class="acc-btn" onclick="limpiarBusqueda()">Mostrar todo el contenido del diplomado</button>
+        </p>
+      </div>
+
+      <!-- SECCIÓN: GESTIÓN GENERAL DEL DIPLOMADO -->
+      <section class="modulo-seccion" data-modulo="General" aria-labelledby="tit-mod-general">
+        <div class="modulo-header">
+          <h2 id="tit-mod-general">Información General, Cronograma y Gestión Académica</h2>
+          <p class="modulo-fechas">Vigencia: Agosto a Diciembre de 2026</p>
+        </div>
+        <div class="recursos-grid">
+          <!-- CARDS GENERALES -->
+          
+        <article class="recurso-card" 
+                 data-modulo="General" 
+                 data-categoria="Gestion" 
+                 aria-labelledby="tit-gen-asistencia">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Planilla Online">Planilla Online</span>
+              <span class="badge-categoria">Gestion</span>
+            </div>
+            <h3 id="tit-gen-asistencia">Planilla Oficial de Asistencia a Clases</h3>
+            <p>Planilla de cálculo de Google Drive con el registro y control de asistencia a todas las sesiones sincrónicas del diplomado.</p>
+          </div>
+          <div class="card-actions">
+            <a href="https://docs.google.com/spreadsheets/d/1nab7mdM1FK_bFFZyb-3jxC9JpmDFuup-/edit?gid=1464656873#gid=1464656873" 
+               class="btn-link btn-primary" 
+               target='_blank' rel='noopener noreferrer'
+               title="Abrir planilla de asistencia en Google Sheets (Abre en ventana nueva)">
+               Abrir planilla de asistencia en Google Sheets (Abre en ventana nueva)
+            </a>
+          <a href="Enlace_Asistencia_Diplomado_VcM.txt" 
+             class="btn-link btn-secondary" 
+             title="Ver instrucciones de asistencia en archivo de texto">
+             Ver instrucciones de asistencia en archivo de texto
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="General" 
+                 data-categoria="Gestion" 
+                 aria-labelledby="tit-gen-recuperacion">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Microsoft Forms">Microsoft Forms</span>
+              <span class="badge-categoria">Gestion</span>
+            </div>
+            <h3 id="tit-gen-recuperacion">Formulario de Justificación y Recuperación de Clases</h3>
+            <p>Formulario institucional para justificar inasistencias y solicitar la recuperación de sesiones sincrónicas.</p>
+          </div>
+          <div class="card-actions">
+            <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=ApBZehwALEOEbh3cqfaymUpYTdwDQ_RLhN8iKbVhg1xUM0xUUjgwSE1POFZKQjY4TktKNE1aMFZIVC4u" 
+               class="btn-link btn-primary" 
+               target='_blank' rel='noopener noreferrer'
+               title="Abrir formulario de recuperación en Microsoft Forms (Abre en ventana nueva)">
+               Abrir formulario de recuperación en Microsoft Forms (Abre en ventana nueva)
+            </a>
+          <a href="Recuperacion_de_Clases_Formulario.txt" 
+             class="btn-link btn-secondary" 
+             title="Ver instrucciones del formulario en archivo de texto">
+             Ver instrucciones del formulario en archivo de texto
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="General" 
+                 data-categoria="Gestion" 
+                 aria-labelledby="tit-gen-cronograma">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Word DOCX">Word DOCX</span>
+              <span class="badge-categoria">Gestion</span>
+            </div>
+            <h3 id="tit-gen-cronograma">Cronograma Oficial de Clases Diplomado VcM 2026</h3>
+            <p>Calendario completo de módulos, fechas sincrónicas, horarios (19:00 a 21:00 hrs), talleres de fin de semana y fechas de evaluación.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Cronograma_Clases_Diplomado_VcM_2026.docx" 
+               class="btn-link btn-primary" 
+               
+               title="Descargar o abrir Cronograma en formato Word">
+               Descargar o abrir Cronograma en formato Word
+            </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="General" 
+                 data-categoria="Gestion" 
+                 aria-labelledby="tit-gen-diagnostico">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Diagnóstico Inicial">Diagnóstico Inicial</span>
+              <span class="badge-categoria">Gestion</span>
+            </div>
+            <h3 id="tit-gen-diagnostico">Diagnóstico Inicial de Aprendizajes</h3>
+            <p>Evaluación diagnóstica inicial realizada el 6 de agosto de 2026. George Wulf completó exitosamente este diagnóstico.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Diagnostico_Inicial_de_Aprendizajes.txt" 
+               class="btn-link btn-primary" 
+               
+               title="Ver detalle y contexto del diagnóstico inicial">
+               Ver detalle y contexto del diagnóstico inicial
+            </a>
+          </div>
+        </article>
+        </div>
+      </section>
+
+      <!-- SECCIÓN: MÓDULO 1 -->
+      <section class="modulo-seccion" data-modulo="Modulo 1" aria-labelledby="tit-mod-1">
+        <div class="modulo-header">
+          <h2 id="tit-mod-1">Módulo 1: La VcM en el Sistema de Educación Superior</h2>
+          <p class="modulo-fechas">Período: 6 de agosto al 18 de agosto de 2026</p>
+        </div>
+        <div class="recursos-grid">
+          <!-- CARDS MÓDULO 1 -->
+          
+        <article class="recurso-card" 
+                 data-modulo="Modulo 1" 
+                 data-categoria="Grabaciones" 
+                 aria-labelledby="tit-m1-grab-inaugural">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: YouTube">YouTube</span>
+              <span class="badge-categoria">Grabaciones</span>
+            </div>
+            <h3 id="tit-m1-grab-inaugural">Grabación: Clase Inaugural Panel de Conversación con Expertos (13 de agosto)</h3>
+            <p>Panel inaugural con expertos en educación superior y vinculación con el medio.</p>
+          </div>
+          <div class="card-actions">
+            <a href="https://www.youtube.com/live/U0Jb1gYtjTI" 
+               class="btn-link btn-primary" 
+               target='_blank' rel='noopener noreferrer'
+               title="Ver grabación de la clase inaugural en YouTube (Abre en ventana nueva)">
+               Ver grabación de la clase inaugural en YouTube (Abre en ventana nueva)
+            </a>
+          <a href="Modulo 1 - La VcM en el Sistema de Educacion Superior/grabaciones_sesiones/Sesion_Inaugural_Panel_Expertos_13_Agosto_YouTube.txt" 
+             class="btn-link btn-secondary" 
+             title="Ver ficha de la sesión en archivo de texto">
+             Ver ficha de la sesión en archivo de texto
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 1" 
+                 data-categoria="Grabaciones" 
+                 aria-labelledby="tit-m1-grab-sesion1">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: YouTube">YouTube</span>
+              <span class="badge-categoria">Grabaciones</span>
+            </div>
+            <h3 id="tit-m1-grab-sesion1">Grabación: Sesión 1 Módulo 1 - Conceptos Clave de la VcM (18 de agosto)</h3>
+            <p>Primera clase sincrónica del diplomado a cargo del expositor Drago Vodanovic.</p>
+          </div>
+          <div class="card-actions">
+            <a href="https://www.youtube.com/live/U0Jb1gYtjTI" 
+               class="btn-link btn-primary" 
+               target='_blank' rel='noopener noreferrer'
+               title="Ver grabación de la sesión 1 en YouTube (Abre en ventana nueva)">
+               Ver grabación de la sesión 1 en YouTube (Abre en ventana nueva)
+            </a>
+          <a href="Modulo 1 - La VcM en el Sistema de Educacion Superior/grabaciones_sesiones/Sesion_1_Clase_Sincronica_18_Agosto_YouTube.txt" 
+             class="btn-link btn-secondary" 
+             title="Ver ficha de la sesión en archivo de texto">
+             Ver ficha de la sesión en archivo de texto
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 1" 
+                 data-categoria="Presentaciones" 
+                 aria-labelledby="tit-m1-ppt-clase1">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Diapositivas y Texto">Diapositivas y Texto</span>
+              <span class="badge-categoria">Presentaciones</span>
+            </div>
+            <h3 id="tit-m1-ppt-clase1">Presentación Clase 1: Conceptos Clave de la VcM (Drago Vodanovic)</h3>
+            <p>Diapositivas de la sesión del 18 de agosto sobre conceptos fundamentales de la vinculación con el medio y calidad educativa.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 1 - La VcM en el Sistema de Educacion Superior/presentaciones_clases/Clase_1_Conceptos_Clave_VcM_DVodanovic_18_Agosto.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir presentación en PDF (79 diapositivas)">
+               Abrir presentación en PDF (79 diapositivas)
+            </a>
+          <a href="Modulo 1 - La VcM en el Sistema de Educacion Superior/presentaciones_clases/Clase_1_Conceptos_Clave_VcM_DVodanovic_Transcripcion_Accesible.txt" 
+             class="btn-link btn-secondary" 
+             title="Leer transcripción accesible de las diapositivas en texto plano">
+             Leer transcripción accesible de las diapositivas en texto plano
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 1" 
+                 data-categoria="Bibliografia" 
+                 aria-labelledby="tit-m1-bib-ia">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Artículo Digital + Texto">Artículo Digital + Texto</span>
+              <span class="badge-categoria">Bibliografia</span>
+            </div>
+            <h3 id="tit-m1-bib-ia">Artículo: Inteligencia Artificial, Educación Superior y VcM (Osorio y Palma, 2024)</h3>
+            <p>Artículo original de Francisco Osorio y Marisol Palma (Revista Encuentros Nº 20). Documento 100% digital con texto seleccionable obtenido de Zenodo.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 1 - La VcM en el Sistema de Educacion Superior/bibliografia/05_IA_Educacion_Superior_y_VcM_Osorio_Palma_2024.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir artículo completo en PDF con texto digital seleccionable">
+               Abrir artículo completo en PDF con texto digital seleccionable
+            </a>
+          <a href="Modulo 1 - La VcM en el Sistema de Educacion Superior/bibliografia/05_IA_Educacion_Superior_y_VcM_Osorio_Palma_2024_Texto_Accesible.txt" 
+             class="btn-link btn-secondary" 
+             title="Leer transcripción completa del artículo en texto accesible">
+             Leer transcripción completa del artículo en texto accesible
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 1" 
+                 data-categoria="Bibliografia" 
+                 aria-labelledby="tit-m1-bib-bidireccional">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Artículo PDF">Artículo PDF</span>
+              <span class="badge-categoria">Bibliografia</span>
+            </div>
+            <h3 id="tit-m1-bib-bidireccional">Artículo: Enfoque bidireccional en las universidades chilenas (Revista +E, 2024)</h3>
+            <p>Abordajes metodológicos en extensión: ¿Qué están entendiendo las universidades chilenas por bidireccionalidad?</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 1 - La VcM en el Sistema de Educacion Superior/bibliografia/01_Enfoque_Bidireccional_Universidades_Chilenas_Revista_E_2024.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir artículo en PDF (+E 2024)">
+               Abrir artículo en PDF (+E 2024)
+            </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 1" 
+                 data-categoria="Bibliografia" 
+                 aria-labelledby="tit-m1-bib-irarrazaval">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Artículo PDF">Artículo PDF</span>
+              <span class="badge-categoria">Bibliografia</span>
+            </div>
+            <h3 id="tit-m1-bib-irarrazaval">Artículo: La vinculación universitaria con el medio y el reconocimiento académico (Irarrázaval, 2020)</h3>
+            <p>Publicación de Ignacio Irarrázaval en Calidad en la Educación (nº 52, pp. 296-323).</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 1 - La VcM en el Sistema de Educacion Superior/bibliografia/02_Vinculacion_Universitaria_Reconocimiento_Academico_Irarrazaval_2020.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir artículo en PDF (Calidad en la Educación)">
+               Abrir artículo en PDF (Calidad en la Educación)
+            </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 1" 
+                 data-categoria="Bibliografia" 
+                 aria-labelledby="tit-m1-bib-rexe">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Artículo PDF">Artículo PDF</span>
+              <span class="badge-categoria">Bibliografia</span>
+            </div>
+            <h3 id="tit-m1-bib-rexe">Artículo: VcM y desarrollo profesional docente en educación superior (Revista REXE, 2022)</h3>
+            <p>Experiencias y percepciones en educación superior chilena (Vol. 21, Nº 47, pp. 149-168).</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 1 - La VcM en el Sistema de Educacion Superior/bibliografia/03_VcM_Desarrollo_Profesional_Docente_REXE_2022.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir artículo en PDF (Revista REXE)">
+               Abrir artículo en PDF (Revista REXE)
+            </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 1" 
+                 data-categoria="Bibliografia" 
+                 aria-labelledby="tit-m1-bib-dougnac">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Artículo PDF">Artículo PDF</span>
+              <span class="badge-categoria">Bibliografia</span>
+            </div>
+            <h3 id="tit-m1-bib-dougnac">Artículo: Revisión del concepto anglosajón 'public engagement' (Dougnac, 2016)</h3>
+            <p>Pensamiento Educativo: Revista de Investigación Educacional Latinoamericana (Vol. 53, Nº 2).</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 1 - La VcM en el Sistema de Educacion Superior/bibliografia/04_Revision_Concepto_Public_Engagement_Dougnac_2016.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir artículo en PDF (Pensamiento Educativo)">
+               Abrir artículo en PDF (Pensamiento Educativo)
+            </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 1" 
+                 data-categoria="Bibliografia" 
+                 aria-labelledby="tit-m1-bib-debate">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Artículo PDF">Artículo PDF</span>
+              <span class="badge-categoria">Bibliografia</span>
+            </div>
+            <h3 id="tit-m1-bib-debate">Artículo: Vinculación con el Medio en Chile: debate académico e investigaciones empíricas</h3>
+            <p>Análisis y revisión del debate sobre vinculación con el medio en el contexto chileno.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 1 - La VcM en el Sistema de Educacion Superior/bibliografia/06_VcM_en_Chile_Debate_Academico_e_Investigaciones.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir artículo en PDF">
+               Abrir artículo en PDF
+            </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 1" 
+                 data-categoria="Material" 
+                 aria-labelledby="tit-m1-mat-cna">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Normativa CNA">Normativa CNA</span>
+              <span class="badge-categoria">Material</span>
+            </div>
+            <h3 id="tit-m1-mat-cna">Criterios y Estándares de Calidad para la Acreditación Institucional (CNA Chile)</h3>
+            <p>Documento oficial de la Comisión Nacional de Acreditación (CNA) para el Subsistema Universitario.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 1 - La VcM en el Sistema de Educacion Superior/material_estudio/Criterios_y_Estandares_Calidad_Acreditacion_CNA_Chile.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir Criterios y Estándares CNA en PDF">
+               Abrir Criterios y Estándares CNA en PDF
+            </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 1" 
+                 data-categoria="Material" 
+                 aria-labelledby="tit-m1-mat-capsula">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Cápsula y Transcripción">Cápsula y Transcripción</span>
+              <span class="badge-categoria">Material</span>
+            </div>
+            <h3 id="tit-m1-mat-capsula">Cápsula de Audio: ¿Qué es la Vinculación con el Medio? (USS)</h3>
+            <p>Material de inducción institucional de la Universidad San Sebastián.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 1 - La VcM en el Sistema de Educacion Superior/material_estudio/Capsula_Audio_Que_es_la_Vinculacion_con_el_Medio_USS.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir guía de la cápsula en PDF">
+               Abrir guía de la cápsula en PDF
+            </a>
+          <a href="Modulo 1 - La VcM en el Sistema de Educacion Superior/material_estudio/Capsula_Audio_Que_es_la_Vinculacion_con_el_Medio_USS_Transcripcion.txt" 
+             class="btn-link btn-secondary" 
+             title="Leer transcripción accesible de la cápsula en texto plano">
+             Leer transcripción accesible de la cápsula en texto plano
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 1" 
+                 data-categoria="Evaluaciones" 
+                 aria-labelledby="tit-m1-eval-quiz">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Microsoft Forms">Microsoft Forms</span>
+              <span class="badge-categoria">Evaluaciones</span>
+            </div>
+            <h3 id="tit-m1-eval-quiz">Quiz de Aplicación Formativo Módulo 1</h3>
+            <p>Formulario oficial de evaluación formativa sobre fundamentos y principios de la Vinculación con el Medio.</p>
+          </div>
+          <div class="card-actions">
+            <a href="https://forms.cloud.microsoft/pages/responsepage.aspx?id=ApBZehwALEOEbh3cqfaymUpYTdwDQ_RLhN8iKbVhg1xUM0kzTVRURUxYUUdIMkVDOUhDVEFYWUZSQy4u&route=shorturl" 
+               class="btn-link btn-primary" 
+               target='_blank' rel='noopener noreferrer'
+               title="Abrir Quiz de Aplicación Módulo 1 en Microsoft Forms (Abre en ventana nueva)">
+               Abrir Quiz de Aplicación Módulo 1 en Microsoft Forms (Abre en ventana nueva)
+            </a>
+          <a href="Modulo 1 - La VcM en el Sistema de Educacion Superior/evaluaciones/Quiz_Aplicacion_Modulo_1_Formulario.txt" 
+             class="btn-link btn-secondary" 
+             title="Ver información del quiz en archivo de texto">
+             Ver información del quiz en archivo de texto
+          </a>
+          </div>
+        </article>
+        </div>
+      </section>
+
+      <!-- SECCIÓN: MÓDULO 2 -->
+      <section class="modulo-seccion" data-modulo="Modulo 2" aria-labelledby="tit-mod-2">
+        <div class="modulo-header">
+          <h2 id="tit-mod-2">Módulo 2: Oportunidades para el Desarrollo Territorial desde la VcM</h2>
+          <p class="modulo-fechas">Período: 20 de agosto al 26 de septiembre de 2026</p>
+        </div>
+        <div class="recursos-grid">
+          <!-- CARDS MÓDULO 2 -->
+          
+        <article class="recurso-card" 
+                 data-modulo="Modulo 2" 
+                 data-categoria="Grabaciones" 
+                 aria-labelledby="tit-m2-grab-s1">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: YouTube">YouTube</span>
+              <span class="badge-categoria">Grabaciones</span>
+            </div>
+            <h3 id="tit-m2-grab-s1">Grabación: Sesión 1 Módulo 2 (20 de agosto)</h3>
+            <p>Primera clase sincrónica del módulo sobre desarrollo territorial.</p>
+          </div>
+          <div class="card-actions">
+            <a href="https://www.youtube.com/watch?v=DBVZ-YfKdL8" 
+               class="btn-link btn-primary" 
+               target='_blank' rel='noopener noreferrer'
+               title="Ver grabación Sesión 1 en YouTube (Abre en ventana nueva)">
+               Ver grabación Sesión 1 en YouTube (Abre en ventana nueva)
+            </a>
+          <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/grabaciones_sesiones/Sesion_1_Clase_Sincronica_20_Agosto_2026_YouTube.txt" 
+             class="btn-link btn-secondary" 
+             title="Ver ficha de la sesión en archivo de texto">
+             Ver ficha de la sesión en archivo de texto
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 2" 
+                 data-categoria="Grabaciones" 
+                 aria-labelledby="tit-m2-grab-s2">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: YouTube">YouTube</span>
+              <span class="badge-categoria">Grabaciones</span>
+            </div>
+            <h3 id="tit-m2-grab-s2">Grabación: Sesión 2 Módulo 2 (25 de agosto)</h3>
+            <p>Segunda clase sincrónica del módulo sobre desarrollo territorial.</p>
+          </div>
+          <div class="card-actions">
+            <a href="https://www.youtube.com/watch?v=pZU7buXRtR0" 
+               class="btn-link btn-primary" 
+               target='_blank' rel='noopener noreferrer'
+               title="Ver grabación Sesión 2 en YouTube (Abre en ventana nueva)">
+               Ver grabación Sesión 2 en YouTube (Abre en ventana nueva)
+            </a>
+          <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/grabaciones_sesiones/Sesion_2_Clase_Sincronica_25_Agosto_2026_YouTube.txt" 
+             class="btn-link btn-secondary" 
+             title="Ver ficha de la sesión en archivo de texto">
+             Ver ficha de la sesión en archivo de texto
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 2" 
+                 data-categoria="Grabaciones" 
+                 aria-labelledby="tit-m2-grab-s3">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: YouTube">YouTube</span>
+              <span class="badge-categoria">Grabaciones</span>
+            </div>
+            <h3 id="tit-m2-grab-s3">Grabación: Sesión 3 Módulo 2 (27 de agosto)</h3>
+            <p>Tercera clase sincrónica del módulo sobre desarrollo territorial.</p>
+          </div>
+          <div class="card-actions">
+            <a href="https://www.youtube.com/watch?v=pZU7buXRtR0" 
+               class="btn-link btn-primary" 
+               target='_blank' rel='noopener noreferrer'
+               title="Ver grabación Sesión 3 en YouTube (Abre en ventana nueva)">
+               Ver grabación Sesión 3 en YouTube (Abre en ventana nueva)
+            </a>
+          <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/grabaciones_sesiones/Sesion_3_Clase_Sincronica_27_Agosto_2026_YouTube.txt" 
+             class="btn-link btn-secondary" 
+             title="Ver ficha de la sesión en archivo de texto">
+             Ver ficha de la sesión en archivo de texto
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 2" 
+                 data-categoria="Grabaciones" 
+                 aria-labelledby="tit-m2-grab-s4">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: YouTube">YouTube</span>
+              <span class="badge-categoria">Grabaciones</span>
+            </div>
+            <h3 id="tit-m2-grab-s4">Grabación: Sesión 4 Módulo 2 (1 de septiembre)</h3>
+            <p>Cuarta clase sincrónica del módulo sobre desarrollo territorial.</p>
+          </div>
+          <div class="card-actions">
+            <a href="https://www.youtube.com/watch?v=TpTxnJ64eSg" 
+               class="btn-link btn-primary" 
+               target='_blank' rel='noopener noreferrer'
+               title="Ver grabación Sesión 4 en YouTube (Abre en ventana nueva)">
+               Ver grabación Sesión 4 en YouTube (Abre en ventana nueva)
+            </a>
+          <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/grabaciones_sesiones/Sesion_4_Clase_Sincronica_01_Septiembre_2026_YouTube.txt" 
+             class="btn-link btn-secondary" 
+             title="Ver ficha de la sesión en archivo de texto">
+             Ver ficha de la sesión en archivo de texto
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 2" 
+                 data-categoria="Grabaciones" 
+                 aria-labelledby="tit-m2-grab-s5">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: YouTube">YouTube</span>
+              <span class="badge-categoria">Grabaciones</span>
+            </div>
+            <h3 id="tit-m2-grab-s5">Grabación: Sesión 5 Módulo 2 (3 de septiembre)</h3>
+            <p>Quinta clase sincrónica del módulo sobre desarrollo territorial.</p>
+          </div>
+          <div class="card-actions">
+            <a href="https://www.youtube.com/watch?v=rni-6UeqdmY" 
+               class="btn-link btn-primary" 
+               target='_blank' rel='noopener noreferrer'
+               title="Ver grabación Sesión 5 en YouTube (Abre en ventana nueva)">
+               Ver grabación Sesión 5 en YouTube (Abre en ventana nueva)
+            </a>
+          <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/grabaciones_sesiones/Sesion_5_Clase_Sincronica_03_Septiembre_2026_YouTube.txt" 
+             class="btn-link btn-secondary" 
+             title="Ver ficha de la sesión en archivo de texto">
+             Ver ficha de la sesión en archivo de texto
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 2" 
+                 data-categoria="Bibliografia" 
+                 aria-labelledby="tit-m2-bib-barca">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Paper Clásico + OCR">Paper Clásico + OCR</span>
+              <span class="badge-categoria">Bibliografia</span>
+            </div>
+            <h3 id="tit-m2-bib-barca">Artículo: The Case for Regional Development Intervention: Place-Based vs Place-Neutral (Barca, McCann, Rodríguez-Pose, 2012)</h3>
+            <p>Artículo fundamental en Journal of Regional Science (Vol. 52, No. 1, pp. 134-152). Incluye transcripción completa de 19 páginas procesadas con OCR para lectura accesible.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/bibliografia/01_Barca_McCann_Rodriguez-Pose_2012_Place-Based_Development.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir PDF del artículo (Journal of Regional Science)">
+               Abrir PDF del artículo (Journal of Regional Science)
+            </a>
+          <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/bibliografia/01_Barca_McCann_Rodriguez-Pose_2012_Texto_Accesible_OCR.txt" 
+             class="btn-link btn-secondary" 
+             title="Leer texto completo accesible del artículo (Transcripción OCR página a página)">
+             Leer texto completo accesible del artículo (Transcripción OCR página a página)
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 2" 
+                 data-categoria="Bibliografia" 
+                 aria-labelledby="tit-m2-bib-raffestin">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Artículo PDF">Artículo PDF</span>
+              <span class="badge-categoria">Bibliografia</span>
+            </div>
+            <h3 id="tit-m2-bib-raffestin">Artículo: Space, territory, and territoriality (Claude Raffestin, 2012)</h3>
+            <p>Publicación en Environment and Planning D: Society and Space (Vol. 30, pp. 121-141).</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/bibliografia/02_Raffestin_2012_Space_Territory_Territoriality.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir artículo de Raffestin en PDF">
+               Abrir artículo de Raffestin en PDF
+            </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 2" 
+                 data-categoria="Bibliografia" 
+                 aria-labelledby="tit-m2-bib-vazquez">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Artículo PDF">Artículo PDF</span>
+              <span class="badge-categoria">Bibliografia</span>
+            </div>
+            <h3 id="tit-m2-bib-vazquez">Artículo: Desarrollo endógeno. Teorías y políticas de desarrollo territorial (Vázquez Barquero)</h3>
+            <p>Investigaciones Regionales, Asociación Española de Ciencia Regional.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/bibliografia/03_Vazquez_Barquero_Desarrollo_Endogeno_Territorial.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir artículo de Vázquez Barquero en PDF">
+               Abrir artículo de Vázquez Barquero en PDF
+            </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 2" 
+                 data-categoria="Bibliografia" 
+                 aria-labelledby="tit-m2-bib-clusters">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Artículo PDF">Artículo PDF</span>
+              <span class="badge-categoria">Bibliografia</span>
+            </div>
+            <h3 id="tit-m2-bib-clusters">Artículo: Clusters y desarrollo territorial en América Latina (Economía, Sociedad y Territorio)</h3>
+            <p>Revisión teórica y desafíos metodológicos para América Latina.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/bibliografia/04_Clusters_y_Desarrollo_Territorial_America_Latina.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir artículo sobre clusters en PDF">
+               Abrir artículo sobre clusters en PDF
+            </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 2" 
+                 data-categoria="Bibliografia" 
+                 aria-labelledby="tit-m2-bib-barros">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Artículo PDF">Artículo PDF</span>
+              <span class="badge-categoria">Bibliografia</span>
+            </div>
+            <h3 id="tit-m2-bib-barros">Artículo: Economicus Journal of Business and Economics Insights (Barros-Contreras, 2026)</h3>
+            <p>Publicación indexada sobre desarrollo económico territorial.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/bibliografia/05_Barros-Contreras_2026_Economicus.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir artículo en PDF (Economicus 2026)">
+               Abrir artículo en PDF (Economicus 2026)
+            </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 2" 
+                 data-categoria="Material" 
+                 aria-labelledby="tit-m2-mat-dialogo">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Guía USS">Guía USS</span>
+              <span class="badge-categoria">Material</span>
+            </div>
+            <h3 id="tit-m2-mat-dialogo">Guía: Diálogo en acción: ¿es o no es VcM? (USS)</h3>
+            <p>Material didáctico para identificar y diferenciar iniciativas reales de vinculación con el medio.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/material_estudio/Dialogo_en_Accion_Es_o_No_Es_VcM.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir guía Diálogo en Acción en PDF">
+               Abrir guía Diálogo en Acción en PDF
+            </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 2" 
+                 data-categoria="Talleres" 
+                 aria-labelledby="tit-m2-mat-taller">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Taller Sincrónico">Taller Sincrónico</span>
+              <span class="badge-categoria">Talleres</span>
+            </div>
+            <h3 id="tit-m2-mat-taller">Taller Módulo 2: Innovación Abierta y Análisis FODA 'Desafío Calor Extremo'</h3>
+            <p>Guía de trabajo, actividades 1 y 2 (FODA e Improvement Triggers), ficha del caso y enlaces a plantillas colaborativas en Google Drive.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/material_estudio/Taller_Modulo_2_Innovacion_Abierta_FODA_Desafio_Calor_Extremo.docx" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir guía del taller en formato Word">
+               Abrir guía del taller en formato Word
+            </a>
+          <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/material_estudio/Enlaces_Plantillas_Taller_Modulo_2.txt" 
+             class="btn-link btn-secondary" 
+             title="Ver enlaces de Google Drive y Docs de las plantillas del taller">
+             Ver enlaces de Google Drive y Docs de las plantillas del taller
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 2" 
+                 data-categoria="Talleres" 
+                 aria-labelledby="tit-m2-mat-caso-calor">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Ficha de Caso">Ficha de Caso</span>
+              <span class="badge-categoria">Talleres</span>
+            </div>
+            <h3 id="tit-m2-mat-caso-calor">Ficha del Caso: Desafío Calor Extremo</h3>
+            <p>Antecedentes y contexto territorial del desafío analizado durante el taller de innovación abierta.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/material_estudio/Caso_Desafio_Calor_Extremo.docx" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir ficha del caso en formato Word">
+               Abrir ficha del caso en formato Word
+            </a>
+          <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/material_estudio/Caso_Desafio_Calor_Extremo.pdf" 
+             class="btn-link btn-secondary" 
+             title="Abrir ficha del caso en PDF">
+             Abrir ficha del caso en PDF
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 2" 
+                 data-categoria="Presentaciones" 
+                 aria-labelledby="tit-m2-ppt-nociones">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Diapositivas y Texto">Diapositivas y Texto</span>
+              <span class="badge-categoria">Presentaciones</span>
+            </div>
+            <h3 id="tit-m2-ppt-nociones">Presentación: Nociones Básicas para Entender Dónde Actúa la VcM</h3>
+            <p>Presentación de Natalia Francisca Campos Albornoz (115 diapositivas). Incluye transcripción accesible.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/presentaciones_clases/01_Nociones_Basicas_Donde_Actua_la_VcM.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir diapositivas en PDF">
+               Abrir diapositivas en PDF
+            </a>
+          <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/presentaciones_clases/01_Nociones_Basicas_Donde_Actua_la_VcM_Transcripcion_Accesible.txt" 
+             class="btn-link btn-secondary" 
+             title="Leer transcripción accesible de las 115 diapositivas en texto plano">
+             Leer transcripción accesible de las 115 diapositivas en texto plano
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 2" 
+                 data-categoria="Presentaciones" 
+                 aria-labelledby="tit-m2-ppt-desarrollo">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Diapositivas y Texto">Diapositivas y Texto</span>
+              <span class="badge-categoria">Presentaciones</span>
+            </div>
+            <h3 id="tit-m2-ppt-desarrollo">Presentación: Desarrollo Territorial y VcM</h3>
+            <p>Presentación de Natalia Campos Albornoz (107 diapositivas). Incluye transcripción accesible.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/presentaciones_clases/02_Desarrollo_Territorial.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir diapositivas en PDF">
+               Abrir diapositivas en PDF
+            </a>
+          <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/presentaciones_clases/02_Desarrollo_Territorial_Transcripcion_Accesible.txt" 
+             class="btn-link btn-secondary" 
+             title="Leer transcripción accesible de las 107 diapositivas en texto plano">
+             Leer transcripción accesible de las 107 diapositivas en texto plano
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 2" 
+                 data-categoria="Presentaciones" 
+                 aria-labelledby="tit-m2-ppt-innovacion-principio">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Diapositivas y Texto">Diapositivas y Texto</span>
+              <span class="badge-categoria">Presentaciones</span>
+            </div>
+            <h3 id="tit-m2-ppt-innovacion-principio">Presentación: Principios de Innovación en VcM</h3>
+            <p>Presentación de Natalia Campos Albornoz (72 diapositivas). Incluye transcripción accesible.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/presentaciones_clases/03_Principio_de_Innovacion.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir diapositivas en PDF">
+               Abrir diapositivas en PDF
+            </a>
+          <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/presentaciones_clases/03_Principio_de_Innovacion_Transcripcion_Accesible.txt" 
+             class="btn-link btn-secondary" 
+             title="Leer transcripción accesible en texto plano">
+             Leer transcripción accesible en texto plano
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 2" 
+                 data-categoria="Presentaciones" 
+                 aria-labelledby="tit-m2-ppt-metodologias">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Diapositivas y Texto">Diapositivas y Texto</span>
+              <span class="badge-categoria">Presentaciones</span>
+            </div>
+            <h3 id="tit-m2-ppt-metodologias">Presentación: Metodologías de Innovación</h3>
+            <p>Presentación de Natalia Campos Albornoz (57 diapositivas). Incluye transcripción accesible.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/presentaciones_clases/04_Metodologias_de_Innovacion.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir diapositivas en PDF">
+               Abrir diapositivas en PDF
+            </a>
+          <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/presentaciones_clases/04_Metodologias_de_Innovacion_Transcripcion_Accesible.txt" 
+             class="btn-link btn-secondary" 
+             title="Leer transcripción accesible en texto plano">
+             Leer transcripción accesible en texto plano
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 2" 
+                 data-categoria="Evaluaciones" 
+                 aria-labelledby="tit-m2-eval-final">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Evaluación Final">Evaluación Final</span>
+              <span class="badge-categoria">Evaluaciones</span>
+            </div>
+            <h3 id="tit-m2-eval-final">Evaluación Final Módulo 2</h3>
+            <p>Evaluación final del módulo Oportunidades para el desarrollo territorial desde la VcM. Los participantes rindieron esta evaluación al término del módulo.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 2 - Oportunidades para el Desarrollo Territorial desde la VcM/evaluaciones/Evaluacion_Final_Modulo_2_Informacion.txt" 
+               class="btn-link btn-primary" 
+               
+               title="Ver información y estado de la evaluación final">
+               Ver información y estado de la evaluación final
+            </a>
+          </div>
+        </article>
+        </div>
+      </section>
+
+      <!-- SECCIÓN: MÓDULO 3 -->
+      <section class="modulo-seccion" data-modulo="Modulo 3" aria-labelledby="tit-mod-3">
+        <div class="modulo-header">
+          <h2 id="tit-mod-3">Módulo 3: Aprendizaje Significativo desde la Vinculación con el Medio</h2>
+          <p class="modulo-fechas">Período: 8 de septiembre al 10 de octubre de 2026</p>
+        </div>
+        <div class="recursos-grid">
+          <!-- CARDS MÓDULO 3 -->
+          
+        <article class="recurso-card" 
+                 data-modulo="Modulo 3" 
+                 data-categoria="Grabaciones" 
+                 aria-labelledby="tit-m3-grab-s1">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: YouTube">YouTube</span>
+              <span class="badge-categoria">Grabaciones</span>
+            </div>
+            <h3 id="tit-m3-grab-s1">Grabación: Sesión 1 Módulo 3 (8 de septiembre)</h3>
+            <p>Primera clase sincrónica sobre aprendizaje significativo desde la VcM.</p>
+          </div>
+          <div class="card-actions">
+            <a href="https://www.youtube.com/watch?v=rns153Hwx_g" 
+               class="btn-link btn-primary" 
+               target='_blank' rel='noopener noreferrer'
+               title="Ver grabación Sesión 1 en YouTube (Abre en ventana nueva)">
+               Ver grabación Sesión 1 en YouTube (Abre en ventana nueva)
+            </a>
+          <a href="Modulo 3 - Aprendizaje Significativo desde la Vinculacion con el Medio/grabaciones_sesiones/Sesion_1_Clase_Sincronica_08_Septiembre_2026_YouTube.txt" 
+             class="btn-link btn-secondary" 
+             title="Ver ficha de la sesión en archivo de texto">
+             Ver ficha de la sesión en archivo de texto
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 3" 
+                 data-categoria="Grabaciones" 
+                 aria-labelledby="tit-m3-grab-s3">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: YouTube">YouTube</span>
+              <span class="badge-categoria">Grabaciones</span>
+            </div>
+            <h3 id="tit-m3-grab-s3">Grabación: Sesión 3 Módulo 3 (22 de septiembre)</h3>
+            <p>Tercera clase sincrónica de aprendizaje significativo desde la VcM.</p>
+          </div>
+          <div class="card-actions">
+            <a href="https://www.youtube.com/watch?v=FM4KTqdtEWQ" 
+               class="btn-link btn-primary" 
+               target='_blank' rel='noopener noreferrer'
+               title="Ver grabación Sesión 3 en YouTube (Abre en ventana nueva)">
+               Ver grabación Sesión 3 en YouTube (Abre en ventana nueva)
+            </a>
+          <a href="Modulo 3 - Aprendizaje Significativo desde la Vinculacion con el Medio/grabaciones_sesiones/Sesion_3_Clase_Sincronica_22_Septiembre_2026_YouTube.txt" 
+             class="btn-link btn-secondary" 
+             title="Ver ficha de la sesión en archivo de texto">
+             Ver ficha de la sesión en archivo de texto
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 3" 
+                 data-categoria="Grabaciones" 
+                 aria-labelledby="tit-m3-grab-s4">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: YouTube">YouTube</span>
+              <span class="badge-categoria">Grabaciones</span>
+            </div>
+            <h3 id="tit-m3-grab-s4">Grabación: Sesión 4 Módulo 3 (29 de septiembre)</h3>
+            <p>Cuarta clase sincrónica de aprendizaje significativo desde la VcM.</p>
+          </div>
+          <div class="card-actions">
+            <a href="https://www.youtube.com/watch?v=HL_ERr5vASQ" 
+               class="btn-link btn-primary" 
+               target='_blank' rel='noopener noreferrer'
+               title="Ver grabación Sesión 4 en YouTube (Abre en ventana nueva)">
+               Ver grabación Sesión 4 en YouTube (Abre en ventana nueva)
+            </a>
+          <a href="Modulo 3 - Aprendizaje Significativo desde la Vinculacion con el Medio/grabaciones_sesiones/Sesion_4_Clase_Sincronica_29_Septiembre_2026_YouTube.txt" 
+             class="btn-link btn-secondary" 
+             title="Ver ficha de la sesión en archivo de texto">
+             Ver ficha de la sesión en archivo de texto
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 3" 
+                 data-categoria="Grabaciones" 
+                 aria-labelledby="tit-m3-grab-s5">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: YouTube">YouTube</span>
+              <span class="badge-categoria">Grabaciones</span>
+            </div>
+            <h3 id="tit-m3-grab-s5">Grabación: Sesión 5 Módulo 3 (1 de octubre)</h3>
+            <p>Quinta clase sincrónica de aprendizaje significativo desde la VcM.</p>
+          </div>
+          <div class="card-actions">
+            <a href="https://www.youtube.com/watch?v=-H2OR5_YFV0" 
+               class="btn-link btn-primary" 
+               target='_blank' rel='noopener noreferrer'
+               title="Ver grabación Sesión 5 en YouTube (Abre en ventana nueva)">
+               Ver grabación Sesión 5 en YouTube (Abre en ventana nueva)
+            </a>
+          <a href="Modulo 3 - Aprendizaje Significativo desde la Vinculacion con el Medio/grabaciones_sesiones/Sesion_5_Clase_Sincronica_01_Octubre_2026_YouTube.txt" 
+             class="btn-link btn-secondary" 
+             title="Ver ficha de la sesión en archivo de texto">
+             Ver ficha de la sesión en archivo de texto
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 3" 
+                 data-categoria="Bibliografia" 
+                 aria-labelledby="tit-m3-bib-she">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Artículo PDF">Artículo PDF</span>
+              <span class="badge-categoria">Bibliografia</span>
+            </div>
+            <h3 id="tit-m3-bib-she">Artículo: Sapiens in Higher Education (Vol. 3, No. 1, 2026)</h3>
+            <p>Journal Scientific sobre innovación pedagógica y aprendizaje significativo en educación superior.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 3 - Aprendizaje Significativo desde la Vinculacion con el Medio/bibliografia/01_SHE_Journal_Sapiens_Higher_Education_2026.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir publicación SHE Journal en PDF">
+               Abrir publicación SHE Journal en PDF
+            </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 3" 
+                 data-categoria="Bibliografia" 
+                 aria-labelledby="tit-m3-bib-metodologias-activas">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Artículo PDF">Artículo PDF</span>
+              <span class="badge-categoria">Bibliografia</span>
+            </div>
+            <h3 id="tit-m3-bib-metodologias-activas">Artículo: Metodologías activas en la educación latinoamericana: revisión sistemática</h3>
+            <p>Revisión sistemática sobre el impacto de metodologías activas en el aprendizaje significativo.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 3 - Aprendizaje Significativo desde la Vinculacion con el Medio/bibliografia/02_Metodologias_Activas_Educacion_Latinoamericana_Revision.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir revisión sistemática en PDF">
+               Abrir revisión sistemática en PDF
+            </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 3" 
+                 data-categoria="Bibliografia" 
+                 aria-labelledby="tit-m3-bib-dialnet">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Artículo PDF">Artículo PDF</span>
+              <span class="badge-categoria">Bibliografia</span>
+            </div>
+            <h3 id="tit-m3-bib-dialnet">Artículo: Efectividad del aprendizaje significativo en retención y transferencia (Dialnet, 2026)</h3>
+            <p>Artículo de revisión en Niveles (Vol. 3, Nº 1, enero-junio 2026, pp. 6-17).</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 3 - Aprendizaje Significativo desde la Vinculacion con el Medio/bibliografia/03_Efectividad_Aprendizaje_Significativo_Retencion_Dialnet.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir artículo en PDF (Dialnet / Niveles 2026)">
+               Abrir artículo en PDF (Dialnet / Niveles 2026)
+            </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 3" 
+                 data-categoria="Bibliografia" 
+                 aria-labelledby="tit-m3-bib-iated">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: IATED Library">IATED Library</span>
+              <span class="badge-categoria">Bibliografia</span>
+            </div>
+            <h3 id="tit-m3-bib-iated">Artículo IATED: FROST Framework para Aprendizaje y Servicio en Educación Superior</h3>
+            <p>Marco de referencia para diseñar experiencias significativas de aprendizaje y servicio universitario.</p>
+          </div>
+          <div class="card-actions">
+            <a href="https://library.iated.org/view/UGLIOTTI2026FRO" 
+               class="btn-link btn-primary" 
+               target='_blank' rel='noopener noreferrer'
+               title="Abrir publicación en IATED Library (Abre en ventana nueva)">
+               Abrir publicación en IATED Library (Abre en ventana nueva)
+            </a>
+          <a href="Modulo 3 - Aprendizaje Significativo desde la Vinculacion con el Medio/bibliografia/04_Articulo_IATED_2026_FROST_Aprendizaje_Servicio.txt" 
+             class="btn-link btn-secondary" 
+             title="Ver ficha y descripción en archivo de texto">
+             Ver ficha y descripción en archivo de texto
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 3" 
+                 data-categoria="Bibliografia" 
+                 aria-labelledby="tit-m3-bib-ieee">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: IEEE Xplore">IEEE Xplore</span>
+              <span class="badge-categoria">Bibliografia</span>
+            </div>
+            <h3 id="tit-m3-bib-ieee">Artículo IEEE Xplore: Métricas y Medición del Aprendizaje</h3>
+            <p>Publicación técnica sobre métricas, evaluación cuantitativa y transferencia de conocimiento.</p>
+          </div>
+          <div class="card-actions">
+            <a href="https://ieeexplore.ieee.org/abstract/document/11576632/metrics#metrics" 
+               class="btn-link btn-primary" 
+               target='_blank' rel='noopener noreferrer'
+               title="Abrir publicación en IEEE Xplore (Abre en ventana nueva)">
+               Abrir publicación en IEEE Xplore (Abre en ventana nueva)
+            </a>
+          <a href="Modulo 3 - Aprendizaje Significativo desde la Vinculacion con el Medio/bibliografia/05_Articulo_IEEE_Xplore_2026_Metricas.txt" 
+             class="btn-link btn-secondary" 
+             title="Ver ficha y descripción en archivo de texto">
+             Ver ficha y descripción en archivo de texto
+          </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 3" 
+                 data-categoria="Talleres" 
+                 aria-labelledby="tit-m3-mat-plantilla">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Plantilla Word">Plantilla Word</span>
+              <span class="badge-categoria">Talleres</span>
+            </div>
+            <h3 id="tit-m3-mat-plantilla">Plantilla de Trabajo: Análisis de Casos Módulo 3</h3>
+            <p>Documento estructurado con las 4 secciones para el análisis del contexto, problema, actores y factores clave.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 3 - Aprendizaje Significativo desde la Vinculacion con el Medio/material_estudio/Plantilla_Analisis_de_Caso_Modulo_3.docx" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir plantilla en formato Word">
+               Abrir plantilla en formato Word
+            </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 3" 
+                 data-categoria="Talleres" 
+                 aria-labelledby="tit-m3-mat-taller-info">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Taller Sincrónico">Taller Sincrónico</span>
+              <span class="badge-categoria">Talleres</span>
+            </div>
+            <h3 id="tit-m3-mat-taller-info">Información Taller Sincrónico Módulo 3 (9 y 10 de octubre de 2026)</h3>
+            <p>Horarios y actividades del taller práctico de fin de semana para la aplicación de aprendizajes en análisis de casos.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 3 - Aprendizaje Significativo desde la Vinculacion con el Medio/material_estudio/Taller_Modulo_3_Aprendizajes_09_10_Octubre.txt" 
+               class="btn-link btn-primary" 
+               
+               title="Ver información y programa del taller en archivo de texto">
+               Ver información y programa del taller en archivo de texto
+            </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 3" 
+                 data-categoria="Presentaciones" 
+                 aria-labelledby="tit-m3-ppt-todas">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Diapositivas y Texto">Diapositivas y Texto</span>
+              <span class="badge-categoria">Presentaciones</span>
+            </div>
+            <h3 id="tit-m3-ppt-todas">Presentación Módulo 3: Aprendizaje Significativo (Todas las Clases)</h3>
+            <p>Compilación completa de diapositivas de las clases del módulo (119 diapositivas). Incluye transcripción accesible.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 3 - Aprendizaje Significativo desde la Vinculacion con el Medio/presentaciones_clases/Diplomado_VcM_Modulo_3_Todas_las_Clases.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir diapositivas en PDF">
+               Abrir diapositivas en PDF
+            </a>
+          <a href="Modulo 3 - Aprendizaje Significativo desde la Vinculacion con el Medio/presentaciones_clases/Diplomado_VcM_Modulo_3_Transcripcion_Accesible.txt" 
+             class="btn-link btn-secondary" 
+             title="Leer transcripción accesible de las 119 diapositivas en texto plano">
+             Leer transcripción accesible de las 119 diapositivas en texto plano
+          </a>
+          </div>
+        </article>
+        </div>
+      </section>
+
+      <!-- SECCIÓN: MÓDULO 4 -->
+      <section class="modulo-seccion" data-modulo="Modulo 4" aria-labelledby="tit-mod-4">
+        <div class="modulo-header">
+          <h2 id="tit-mod-4">Módulo 4: Articulación entre VcM y Generación de Nuevo Conocimiento</h2>
+          <p class="modulo-fechas">Período: 6 de octubre al 7 de noviembre de 2026 (En Desarrollo)</p>
+        </div>
+        <div class="recursos-grid">
+          <!-- CARDS MÓDULO 4 -->
+          
+        <article class="recurso-card" 
+                 data-modulo="Modulo 4" 
+                 data-categoria="Bibliografia" 
+                 aria-labelledby="tit-m4-bib-peters">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Guía JBI PDF">Guía JBI PDF</span>
+              <span class="badge-categoria">Bibliografia</span>
+            </div>
+            <h3 id="tit-m4-bib-peters">Guía: Best practice guidance for scoping review protocols (JBI, Peters et al.)</h3>
+            <p>Orientaciones y mejores prácticas internacionales para la formulación de revisiones de alcance y síntesis de evidencia.</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 4 - Articulacion entre VcM y Generacion de Nuevo Conocimiento/bibliografia/01_Best_Practice_Guidance_Scoping_Reviews_JBI_Peters.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir guía en PDF (Peters et al.)">
+               Abrir guía en PDF (Peters et al.)
+            </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 4" 
+                 data-categoria="Bibliografia" 
+                 aria-labelledby="tit-m4-bib-jbi-manual">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: Manual JBI PDF">Manual JBI PDF</span>
+              <span class="badge-categoria">Bibliografia</span>
+            </div>
+            <h3 id="tit-m4-bib-jbi-manual">Manual del JBI para la Síntesis de Evidencia (2021)</h3>
+            <p>Manual exhaustivo de referencia internacional para síntesis sistemática de evidencia (485 páginas con texto digital).</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 4 - Articulacion entre VcM y Generacion de Nuevo Conocimiento/bibliografia/02_Manual_JBI_Sintesis_de_Evidencia_2021.pdf" 
+               class="btn-link btn-primary" 
+               
+               title="Abrir Manual JBI en PDF (485 páginas)">
+               Abrir Manual JBI en PDF (485 páginas)
+            </a>
+          </div>
+        </article>
+
+        <article class="recurso-card" 
+                 data-modulo="Modulo 4" 
+                 data-categoria="Gestion" 
+                 aria-labelledby="tit-m4-crono-fechas">
+          <div class="card-top">
+            <div class="card-badge-row">
+              <span class="badge-formato" aria-label="Formato: En Desarrollo">En Desarrollo</span>
+              <span class="badge-categoria">Gestion</span>
+            </div>
+            <h3 id="tit-m4-crono-fechas">Cronograma y Próximas Clases Módulo 4 (Octubre - Noviembre 2026)</h3>
+            <p>Fechas de las 5 clases sincrónicas (6, 13, 15, 20 y 22 de octubre) y taller sincrónico (6 y 7 de noviembre).</p>
+          </div>
+          <div class="card-actions">
+            <a href="Modulo 4 - Articulacion entre VcM y Generacion de Nuevo Conocimiento/cronograma_modulo/Cronograma_y_Fechas_Modulo_4.txt" 
+               class="btn-link btn-primary" 
+               
+               title="Ver cronograma detallado del Módulo 4 en archivo de texto">
+               Ver cronograma detallado del Módulo 4 en archivo de texto
+            </a>
+          </div>
+        </article>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Pie de Página Accesible -->
+  <footer role="contentinfo">
+    <div class="container">
+      <p>Diplomado en Vinculación con el Medio 2026 • Universidad San Sebastián</p>
+      <p style="margin-top: 8px;">
+        Solución diseñada con 100% de cumplimiento WCAG 2.1 AAA para lectores de pantalla NVDA, JAWS y VoiceOver.
+      </p>
+      <p style="margin-top: 8px;">
+        <a href="#contenido-principal">Volver al inicio del contenido</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Lógica Accesible JavaScript -->
+  <script>
+    let currentCategory = 'all';
+
+    function announce(message) {
+      const live = document.getElementById('live-anuncios');
+      if (live) {
+        live.textContent = '';
+        setTimeout(() => { live.textContent = message; }, 50);
+      }
+    }
+
+    function setTheme(theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem('vcm_theme', theme);
+      ['dark', 'light', 'yellow'].forEach(t => {
+        const btn = document.getElementById('btn-theme-' + t);
+        if (btn) btn.setAttribute('aria-pressed', (theme === t || (t === 'yellow' && theme === 'yellow-black')) ? 'true' : 'false');
+      });
+      announce('Tema visual cambiado a ' + theme);
+    }
+
+    function setFontSize(size) {
+      document.documentElement.setAttribute('data-font-size', size);
+      localStorage.setItem('vcm_fontsize', size);
+      ['normal', 'large', 'xlarge'].forEach(s => {
+        const btn = document.getElementById('btn-font-' + s);
+        if (btn) btn.setAttribute('aria-pressed', (size === s) ? 'true' : 'false');
+      });
+      announce('Tamaño de fuente cambiado a ' + size);
+    }
+
+    function setCategoryFilter(cat) {
+      currentCategory = cat;
+      document.querySelectorAll('.filter-chip').forEach(chip => {
+        chip.setAttribute('aria-pressed', chip.getAttribute('data-filter') === cat ? 'true' : 'false');
+      });
+      filtrarRecursos();
+    }
+
+    function filtrarRecursos() {
+      const input = document.getElementById('filtro-busqueda');
+      const query = input.value.toLowerCase().trim();
+      const cards = document.querySelectorAll('.recurso-card');
+      const modulos = document.querySelectorAll('.modulo-seccion');
+      let visibleCount = 0;
+
+      cards.forEach(card => {
+        const cardCat = card.getAttribute('data-categoria');
+        const cardText = card.textContent.toLowerCase();
+        
+        const matchesCategory = (currentCategory === 'all' || cardCat === currentCategory);
+        const matchesQuery = (query === '' || cardText.includes(query));
+
+        if (matchesCategory && matchesQuery) {
+          card.style.display = 'flex';
+          visibleCount++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      // Ocultar módulos vacíos
+      modulos.forEach(mod => {
+        const modCards = mod.querySelectorAll('.recurso-card');
+        let modHasVisible = false;
+        modCards.forEach(c => {
+          if (c.style.display !== 'none') modHasVisible = true;
+        });
+        mod.style.display = modHasVisible ? 'block' : 'none';
+      });
+
+      const noResults = document.getElementById('no-results-msg');
+      if (visibleCount === 0) {
+        noResults.style.display = 'block';
+        announce('No se encontraron recursos que coincidan con ' + (query || currentCategory));
+      } else {
+        noResults.style.display = 'none';
+        announce('Se encontraron ' + visibleCount + ' recursos disponibles.');
+      }
+    }
+
+    function limpiarBusqueda() {
+      const input = document.getElementById('filtro-busqueda');
+      input.value = '';
+      currentCategory = 'all';
+      document.querySelectorAll('.filter-chip').forEach(chip => {
+        chip.setAttribute('aria-pressed', chip.getAttribute('data-filter') === 'all' ? 'true' : 'false');
+      });
+      filtrarRecursos();
+      input.focus();
+      announce('Búsqueda restablecida. Mostrando todos los recursos.');
+    }
+
+    // Inicializar preferencias guardadas
+    document.addEventListener('DOMContentLoaded', () => {
+      const savedTheme = localStorage.getItem('vcm_theme');
+      if (savedTheme) setTheme(savedTheme);
+      const savedFont = localStorage.getItem('vcm_fontsize');
+      if (savedFont) setFontSize(savedFont);
+    });
+  </script>
+</body>
+</html>
