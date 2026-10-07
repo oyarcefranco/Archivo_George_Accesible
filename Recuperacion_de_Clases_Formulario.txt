@@ -8,7 +8,7 @@ ENLACE DIRECTO:
 https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=ApBZehwALEOEbh3cqfaymUpYTdwDQ_RLhN8iKbVhg1xUM0xUUjgwSE1POFZKQjY4TktKNE1aMFZIVC4u
 
 INDICACIÓN PARA NAVEGACIÓN:
-Para abrir este enlace en su navegador predeterminado, copie y pegue la dirección en la barra de direcciones o ábralo desde el 'Portal_Accesible_George.html'.
+Para abrir este enlace en su navegador predeterminado, copie y pegue la dirección en la barra de direcciones o ábralo desde el portal web accesible ('index.html').
 
 INFORMACIÓN COMPLEMENTARIA:
 URL corregida y verificada con parámetros completos de acceso institucional.

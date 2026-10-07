@@ -8,7 +8,7 @@ ENLACE DIRECTO:
 https://docs.google.com/spreadsheets/d/1nab7mdM1FK_bFFZyb-3jxC9JpmDFuup-/edit?gid=1464656873#gid=1464656873
 
 INDICACIÓN PARA NAVEGACIÓN:
-Para abrir este enlace en su navegador predeterminado, copie y pegue la dirección en la barra de direcciones o ábralo desde el 'Portal_Accesible_George.html'.
+Para abrir este enlace en su navegador predeterminado, copie y pegue la dirección en la barra de direcciones o ábralo desde el portal web accesible ('index.html').
 
 INFORMACIÓN COMPLEMENTARIA:
 Los estudiantes pueden verificar su estado de asistencia por sesión y fecha.

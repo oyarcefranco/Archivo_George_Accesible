@@ -2,7 +2,7 @@
 ========================================================================================
 GESTOR DE ACCESIBILIDAD Y ACTUALIZACIÓN AUTOMÁTICA - DIPLOMADO VcM 2026
 Universidad San Sebastián • Dirección General de Vinculación con el Medio
-Adaptado para: George Wulf Sotomayor
+Adaptado con: Estándar de Accesibilidad Universal • WCAG 2.1 / 2.2 AAA
 
 Propósito:
 Este script permite mantener 100% accesibles todos los materiales del diplomado de forma
@@ -26,9 +26,9 @@ if sys.stdout and sys.stdout.encoding != 'utf-8':
     except Exception:
         pass
 
-WORKSPACE = os.path.dirname(os.path.abspath(__file__))
-DIR_ACCESIBLE = os.path.join(WORKSPACE, "Archivo_George_Accesible")
-DIR_ORIGINAL = os.path.join(WORKSPACE, "Archivo George")
+HERRAMIENTAS_DIR = os.path.dirname(os.path.abspath(__file__))
+DIR_ACCESIBLE = os.path.dirname(HERRAMIENTAS_DIR) if os.path.basename(HERRAMIENTAS_DIR) == "herramientas_mantenimiento" else HERRAMIENTAS_DIR
+WORKSPACE = os.path.dirname(DIR_ACCESIBLE)
 
 def strip_accents(s):
     return ''.join(c for c in unicodedata.normalize('NFD', s) if unicodedata.category(c) != 'Mn').lower()

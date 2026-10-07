@@ -8,4 +8,4 @@ ENLACE DIRECTO:
 https://www.youtube.com/live/U0Jb1gYtjTI
 
 INDICACIÓN PARA NAVEGACIÓN:
-Para abrir este enlace en su navegador predeterminado, copie y pegue la dirección en la barra de direcciones o ábralo desde el 'Portal_Accesible_George.html'.
+Para abrir este enlace en su navegador predeterminado, copie y pegue la dirección en la barra de direcciones o ábralo desde el portal web accesible ('index.html').

@@ -8,7 +8,7 @@ ENLACE DIRECTO:
 https://library.iated.org/view/UGLIOTTI2026FRO
 
 INDICACIÓN PARA NAVEGACIÓN:
-Para abrir este enlace en su navegador predeterminado, copie y pegue la dirección en la barra de direcciones o ábralo desde el 'Portal_Accesible_George.html'.
+Para abrir este enlace en su navegador predeterminado, copie y pegue la dirección en la barra de direcciones o ábralo desde el portal web accesible ('index.html').
 
 INFORMACIÓN COMPLEMENTARIA:
 Presenta el marco de trabajo 'FROST' para el diseño de experiencias de aprendizaje y servicio significativo en educación superior.

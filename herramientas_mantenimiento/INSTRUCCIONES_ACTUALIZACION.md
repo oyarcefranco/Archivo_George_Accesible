@@ -1,15 +1,14 @@
-# Guía Operativa para el Equipo Docente: Cómo Actualizar y Agregar Nuevos Materiales de Forma 100% Accesible
+# Guía Operativa para el Equipo Docente: Actualización y Gestión Accesible
 
-Este documento explica de forma clara y sencilla cómo mantener al día el repositorio accesible para **George Wulf Sotomayor** durante el desarrollo de los módulos restantes del diplomado (Módulos 4, 5, 6 y 7).
+Este documento explica de forma clara y sencilla cómo mantener al día el repositorio accesible para estudiantes con discapacidad visual y usuarios de lectores de pantalla durante el desarrollo de los módulos restantes del diplomado (Módulos 4, 5, 6 y 7).
 
 ---
 
 ## 1. Dónde Colocar los Nuevos Archivos
 
-Dentro de la carpeta `Archivo_George_Accesible/`, cada módulo cuenta con subcarpetas organizadas según el tipo de material:
+Cada módulo cuenta con subcarpetas organizadas según el tipo de material:
 
 ```text
-Archivo_George_Accesible/
 ├── Modulo 4 - Articulacion entre VcM y Generacion de Nuevo Conocimiento/
 │   ├── bibliografia/            <- Nuevas lecturas y artículos en PDF
 │   ├── grabaciones_sesiones/    <- Archivos .txt con los enlaces de YouTube
@@ -22,7 +21,7 @@ Archivo_George_Accesible/
 1. **Nombres de archivo claros y descriptivos:**
    - ❌ **Evitar**: `1.txt`, `clase.pdf`, `Nuevo Documento de texto.txt`.
    - ✅ **Usar**: `Sesion_1_Clase_Sincronica_06_Octubre_YouTube.txt`, `01_Guia_Analisis_Casos.pdf`.
-   - *Razón*: El lector de pantalla de George lee en voz alta el nombre del archivo. Un nombre claro le permite saber de inmediato qué contiene sin tener que abrirlo.
+   - *Razón*: El lector de pantalla lee en voz alta el nombre del archivo. Un nombre claro le permite al estudiante saber de inmediato qué contiene sin tener que abrirlo.
 
 2. **Enlaces en archivos de texto (`.txt`):**
    - Para grabaciones de YouTube o formularios de Forms, guarde un archivo `.txt` que incluya:
@@ -31,7 +30,7 @@ Archivo_George_Accesible/
      - La dirección web completa con `https://`.
 
 3. **Presentaciones en diapositivas (PowerPoint / PDF):**
-   - Cuando guarde un PDF de diapositivas, ejecute el generador de transcripciones (ver paso 2) para que George cuente con la versión en texto plano estructurada diapositiva por diapositiva.
+   - Cuando guarde un PDF de diapositivas, ejecute el generador de transcripciones (ver paso 2) para contar con la versión en texto plano estructurada diapositiva por diapositiva.
 
 4. **Documentos PDF (Lecturas y Papers):**
    - Asegúrese de que el PDF tenga texto digital seleccionable (no sea una foto o escaneo plano). Si es un escaneo, el sistema le avisará durante la auditoría.
@@ -49,7 +48,7 @@ python actualizar_accesibilidad.py
 ### ¿Qué hace este comando automáticamente?
 
 1. **Audita todos los archivos**: Revisa que todos los PDFs tengan texto y que no existan enlaces rotos.
-2. **Regenera el Portal Web (`Portal_Accesible_George.html`)**: Añade los nuevos contenidos al buscador instantáneo y a la estructura accesible.
+2. **Regenera el Portal Web (`index.html` / `Portal_Accesible.html`)**: Añade los nuevos contenidos al buscador instantáneo y a la estructura accesible.
 3. **Regenera la Guía en Word (`Guia_Accesible_Diplomado_VcM.docx`)**: Actualiza el índice formal en Word con enlaces y tablas accesibles.
 4. **Regenera la Guía Markdown (`README_ACCESIBLE.md`)**.
 
@@ -71,7 +70,7 @@ python actualizar_accesibilidad.py
 
 ---
 
-## 4. Contacto y Soporte para George
+## 4. Soporte y Transcripciones Accesibles
 
-Si George requiere asistencia directa con algún archivo o adaptación en audio, recuerde que todas las transcripciones en texto plano se encuentran disponibles en:
-`Archivo_George_Accesible/transcripciones_accesibles/`.
+Todas las transcripciones en texto plano se encuentran organizadas y disponibles en:
+`transcripciones_accesibles/`.
